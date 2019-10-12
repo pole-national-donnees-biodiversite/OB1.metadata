@@ -55,7 +55,37 @@ mettre orders='mdy HM' si l'heure est rensignée en plus.
   - https://ropensci.org/tutorials/taxize_tutorial/
   - to have taxonomic IDS from many sources (worms, bold, itis)
   - get synonyms
-  - retrieve classification
+  - retrieve classification :
+  ```
+  nompoissons = poissons$ESP_LAT[2]
+  classification(as.character(nompoissons), db="gbif")
+  ```
+  you can specify the data source with the db argument like ITIS or NCBI (No ENTREZ API key provided with NCBI)
+  ```
+  > classification(as.character(nompoissons), db="gbif")
+  ==  1 queries  ===============
+  Retrieving data for taxon 'Scophthalmus rhombus'
+  √  Found:  Scophthalmus rhombus
+  ==  Results  =================
+  * Total: 1 
+  * Found: 1 
+  * Not Found: 0
+  $`Scophthalmus rhombus`
+                    name    rank      id
+  1             Animalia kingdom       1
+  2             Chordata  phylum      44
+  3       Actinopterygii   class     204
+  4    Pleuronectiformes   order     588
+  5       Scophthalmidae  family    5085
+  6         Scophthalmus   genus 2409400
+  7 Scophthalmus rhombus species 2409403
+  
+  attr(,"class")
+  [1] "classification"
+  attr(,"db")
+  [1] "gbif
+  ```
+
   - to have scientific names from common names or vice versa
 - scrubr https://cran.r-project.org/web/packages/scrubr/index.html
 
