@@ -8,14 +8,25 @@ app_ui <- function() {
     dashboardPage(
       title = "OB1.metadata",
       dashboardHeader(
-        title = "OB1.metadata"),
+        title = "OB1.metadata"
+      ),
       dashboardSidebar(
-        menuItem("Welcome", tabName = "welcome", 
-                 icon = icon("home"))
+        useShinyjs(), 
+        sidebarMenu(
+          menuItem("Welcome", tabName = "welcome", 
+                   icon = icon("home")),
+          menuItem("Semantics", tabName = "semantics", 
+                   icon = icon("project-diagram"))
+        )
       ),
       dashboardBody(
         tabItems(
-          tabItem(tabName = "welcome", fluidPage())
+          tabItem("welcome",
+                  fluidPage(h1("Hello !"))
+          ),
+          tabItem("semantics",
+                  semanticsUI("semantics")
+          )
         )
       )
     )
