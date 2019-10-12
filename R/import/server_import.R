@@ -1,7 +1,8 @@
 #' @import shiny
 
 server_import <- function(input, output, session, savevar) {
-
+  ns <- session$ns
+  
   # List the first level callModules here
   output$contents <- renderTable({
     # input$file1 will be NULL initially. After the user selects
@@ -11,7 +12,7 @@ server_import <- function(input, output, session, savevar) {
     # be found.
     inFile <- input$file1
     
-    if (is.null(inFile))
+    if(is.null(inFile))
       return(NULL)
     
     read.csv(inFile$datapath, header = input$header)
