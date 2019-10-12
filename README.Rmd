@@ -1,55 +1,17 @@
----
-output: github_document
----
+# Défi OB1  
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+_Elie Arnaud, Yvan LeBras_  
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
+Git de l'équipe OB1 de l'Ocean Hackathon 2019 - Brest.  
 
-# OB1.metadata
+## Description du défi
 
-<!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-<!-- badges: end -->
+De plus en plus de données scientifiques sont aujourd'hui accessibles en accès ouvert. Cette mise à disposition est un premier pas essentiel vers un meilleur partage des connaissances et une réutilisation massives des données. Malheureusement, le partage du "matériel brut" ne suffit pas, et aujourd'hui plus que jamais se pose la question de la structuration de ces données. Comment faire en sorte que les données soient suffisamment bien décrites pour pouvoir être compréhensibles et réutilisées le plus largement possible ? Dans le cadre du projet "Pôle national de données de biodiversité", des actions en cours propose l'utilisation d'un standard de metadonnees, l'EML (Ecological Metadata Language), comme standard pivot d'outils et services qui faciliteraient cette structuration des données écologique et leur réutilisation. Des questionnements particuliers ont émergé concernant les données marines et ocean hackathon représente une initiative parfaite pour avancer sur certains aspects et laisser de potentiels hackers proposer d'améliorer ou/et créer des produits d'intérêt.  
 
-The goal of OB1.metadata is to ...
+**Objectifs**
 
-## Installation
+En termes d'outils, nous travaillons sur le développement d'une application interactive R Shiny nommée (MetaSHARK)[https://github.com/earnaud/MetaShARK]. Nous aimerions développer des “modules” en R ou autre langage permettant d’automatiser les traitements de données marines hétérogènes pour par exemple parcourir des données d'écologie (séquences d'ADN ou données de présence d'espèces) et environnementales (données satellitaires ou autres données décrivant les conditions physico-chimiques du milieu) pour remplir de manière automatique et/ou assistée les champs de métadonnées pouvant l’être (étendues taxonomique, géographique et temporelle de l’étude ...).  
 
-You can install the released version of OB1.metadata from [CRAN](https://CRAN.R-project.org) with:
+## Pistes envisagées
 
-``` r
-install.packages("OB1.metadata")
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-```{r example}
-library(OB1.metadata)
-## basic example code
-```
-
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
-```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!
+//TODO  
