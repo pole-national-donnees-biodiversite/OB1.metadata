@@ -11,6 +11,12 @@ ui_import <- function(id) {
       label = "Choose CSV File",
       multiple = FALSE
       ),
+    radioButtons(inputId = ns("sep"), 
+                 label = "Separator",
+                 choices = c(Comma = ",",
+                             Semicolon = ";",
+                             Tab = "\t"),
+                 selected = ","),
     tableOutput(ns("contents"))
   )
 }
