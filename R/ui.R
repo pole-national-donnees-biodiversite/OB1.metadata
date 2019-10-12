@@ -11,7 +11,6 @@ app_ui <- function() {
         title = "OB1.metadata"
       ),
       dashboardSidebar(
-        useShinyjs(), 
         sidebarMenu(
           menuItem("Welcome", tabName = "welcome", 
                    icon = icon("home")),
