@@ -556,6 +556,10 @@ Utilities / visualization / themes
 - http://agroportal.lirmm.fr/annotator
 - https://www.rdocumentation.org/packages/AtlasRDF/versions/1.8.0/topics/getOntologyMappings
 
+#### Démarche
+- .owl -> .obo via Robot (outil java)
+- .obo -> app Shiny
+
 #### Annotation de données/métadonnées par ontologies :
 - annotateur d'ontologies : https://www.bioontology.org/wiki/Annotator_R_Client
 - Get mappings for a given class URI from an ontology other than EFO : https://www.rdocumentation.org/packages/AtlasRDF/versions/1.8.0/topics/getOntologyMappings
