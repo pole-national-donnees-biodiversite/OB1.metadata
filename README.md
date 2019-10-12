@@ -91,6 +91,7 @@ Utilities / visualization / themes
 - convertisseurs existants
   - https://github.com/gbif/eml-profile/blob/master/eml2iso19139.xsl
   - https://github.com/NCEAS/iso2eml
+  - https://github.com/eblondel/geometa
 
 
 ### Ontologies et liens avec module semantics
