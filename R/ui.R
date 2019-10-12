@@ -19,6 +19,17 @@ app_ui <- function() {
         )
       ),
       dashboardBody(
+        # tags$head(
+        #   tags$style(
+        #     HTML("
+        #       /* body */
+        #       .content-wrapper, .right-side {
+        #       background-image:url(https://live.staticflickr.com/4413/35827585043_cf308d88cc_z.jpg);
+        #       background-size: cover;
+        #       }
+        #     ")
+        #   )
+        # ),
         tabItems(
           tabItem("welcome",
                   fluidPage(h1("Hello !"))

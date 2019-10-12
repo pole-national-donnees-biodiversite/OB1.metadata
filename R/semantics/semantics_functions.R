@@ -12,7 +12,7 @@ library(ontologyIndex)
     name = c(
       gsub("\\..*$","",ontonames)
     ),
-    ontopath = c(
+    path = c(
       "~/Softwares/Gits/OB1.metadata/resources/marinetlo.obo"
     ),
     stringsAsFactors = FALSE

@@ -28,6 +28,7 @@ semantics <- function(input, output, session,
   
   # fields annotation ----
   output$select_term <- renderUI({
+    # browser()
     onto <- get_ontology(ontoDF[
       ontoDF$name == input$ontology,
       "path"
