@@ -1,5 +1,5 @@
 #' @import shiny
-server_import <- function(input, output,session) {
+server_import <- function(input, output, session, savevar) {
   # List the first level callModules here
   output$contents <- renderTable({
     # input$file1 will be NULL initially. After the user selects
