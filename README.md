@@ -1,6 +1,6 @@
 # Défi OB1  
 
-_Elie Arnaud, Yvan Le Bras_  
+_Elie Arnaud, Yvan Le Bras, Oussama Chaib, Juliette Silhol, Laura Leroi, Clément Grandidier, Dorian Cazau_  
 
 Git de l'équipe OB1 de l'Ocean Hackathon 2019 - Brest.  
 
@@ -13,6 +13,21 @@ De plus en plus de données scientifiques sont aujourd'hui accessibles en accès
 En termes d'outils, nous travaillons sur le développement d'une application interactive R Shiny nommée (MetaSHARK)[https://github.com/earnaud/MetaShARK]. Nous aimerions développer des “modules” en R ou autre langage permettant d’automatiser les traitements de données marines hétérogènes pour par exemple parcourir des données d'écologie (séquences d'ADN ou données de présence d'espèces) et environnementales (données satellitaires ou autres données décrivant les conditions physico-chimiques du milieu) pour remplir de manière automatique et/ou assistée les champs de métadonnées pouvant l’être (étendues taxonomique, géographique et temporelle de l’étude ...).  
 
 ## Pistes envisagées
+- Blockchain & Peer to Peer. Pour distribuer
+  - A1 les données et/ou métadonnées (MTD)
+  - A2 logiciels notamment ceux développés en B1 et B2
+- Deux modules R Shiny
+  - B1 "Inférence" automatique de MTD, notamment basé sur utilisation d'expression régulière (RegEx)
+  - B2 "Sémantique" sur attributs (aussi nommés variables) : faire un lien entre les attributs et des ressoruces terminologiques exitantes notamment ontologies du domaine
+- Récupérer des données hétérogènes proposées au Océan hackathon + extérieures avec leurs MTD et proposer 
+  - C1 d'y ajouter des MTD -> structuration / qualification des MTD
+  - C2 Faire remonter aux entrepôts des données d'origine les améliorations de MTD
+- "Mapping" manuel de standards entre
+  - D1 ISO19139 / EML / Darwin-Core par exemple
+- Business Model
+  - Indicateurs / métriques autour de la "complétude" des données en MTD
+  - Indicateurs / métriques autour des données stockées inutilement car non rétuilisable notamment car MTD pas assez détaillées
+
 
 ### Gestion métadonnées
 - datapackage https://github.com/frictionlessdata/datapackage-r notamment fonction dataPackage$infer 
