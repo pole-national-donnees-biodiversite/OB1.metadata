@@ -41,7 +41,7 @@ créer une liste composée de sous-listes décrivant les métadonnées du fichie
 - taxonomyCleanr (A workflow and set of functions to clean your taxonomy data using R) https://github.com/EDIorg/taxonomyCleanr 
 - dataspice https://github.com/ropenscilabs/dataspice dont déjà des choses côté EML : https://github.com/ropenscilabs/dataspice/blob/master/R/eml_to_spice.R
 - dataCleanR (A collection of user friendly data cleaning functions - EDIorg/dataCleanr) https://github.com/EDIorg/dataCleanr/blob/master/README.md
-dataCleanr convertie l'encodage des données date et heure en standard ISO8601
+ - time format management: iso8601_convert converts date and time strings to standard ISO 8601 formatted strings, https://ediorg.github.io/dataCleanr/articles/iso8601_functions.html
 ```
 Contaminants2 =read.table("Contaminants2.csv", header=TRUE, quote="", sep =";")
 dateContaminants2 = Contaminants2$Passage...Date #extration des données "date"
@@ -49,7 +49,7 @@ dataContaminants2_cvn= iso8601_convert(dateContaminants2, orders = 'mdy')
 ```
 ici orders='mdy' car les données "date" sont de format jj/mm/aa 
 mettre orders='mdy HM' si l'heure est rensignée en plus. 
-  - time format management: iso8601_convert converts date and time strings to standard ISO 8601 formatted strings, https://ediorg.github.io/dataCleanr/articles/iso8601_functions.html
+  
 - taxize " The EML R package can leverage existing functions in the R package taxize to automatically generate the rank classification metadata" / rOpenSci | taxize tutorial / taxa - taxonomic classes for R
   - https://ropensci.org/tutorials/taxize_tutorial/
 - ritis - Integrated Taxonomic Information Service (ITIS) R client
