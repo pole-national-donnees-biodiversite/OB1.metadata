@@ -118,8 +118,8 @@ mettre orders='mdy HM' si l'heure est rensignée en plus.
 
 - ritis - Integrated Taxonomic Information Service (ITIS) R client
   - https://github.com/ropensci/ritis
-- binomen - taxonomic name classes and parsing methods
-  - https://github.com/ropensci/binomen
+- taxa (notably evolution from binomen - taxonomic name classes and parsing methods package) defines taxonomic classes and functions to manipulate them. The goal is to use these classes as low level fundamental taxonomic classes that other R packages can build on and supply robust manipulation functions (e.g. subsetting) that are broadly useful.
+  - https://github.com/ropensci/taxa
 
 - https://github.com/ropensci/phylocomr
   - ecovolve/ph_ecovolve - interface to ecovolve executable, and a higher level interface
