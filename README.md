@@ -41,6 +41,7 @@ En termes d'outils, nous travaillons sur le développement d'une application int
   - https://github.com/ropensci/ritis
 - binomen - taxonomic name classes and parsing methods
   - https://github.com/ropensci/binomen
+- time format management: iso8601_convert converts date and time strings to standard ISO 8601 formatted strings, https://ediorg.github.io/dataCleanr/articles/iso8601_functions.html
 
 - https://github.com/ropensci/phylocomr
   - ecovolve/ph_ecovolve - interface to ecovolve executable, and a higher level interface
