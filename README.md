@@ -56,6 +56,8 @@ mettre orders='mdy HM' si l'heure est rensignée en plus.
   - get synonyms
   - retrieve classification
   - to have scientific names from common names or vice versa
+- scrubr https://cran.r-project.org/web/packages/scrubr/index.html
+
 - ritis - Integrated Taxonomic Information Service (ITIS) R client
   - https://github.com/ropensci/ritis
 - binomen - taxonomic name classes and parsing methods
