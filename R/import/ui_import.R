@@ -1,12 +1,22 @@
 #' @import shiny
-app_ui <- function() {
+ui_import <- function() {
   #tagList(
   # Leave this function for adding external resources
   # golem_add_external_resources(),
   # List the first level UI elements here 
   
-  # call for empty fluidPage because main is creating the dashboard look
+  # basic look since ui.R is creating dashboard 
   fluidPage(
+    fileInput(
+      inputId = "file1", 
+      label = "Choose CSV File",
+      multiple = FALSE,
+      accept = c(
+                "text/csv",
+                "text/comma-separated-values,text/plain",
+                ".csv")
+      ),
+    tableOutput("contents")
   )
 }
 
