@@ -1,0 +1,16 @@
+Package: OB1.metadata
+Title: Ocean hackathon défi B1
+Version: 0.0.0.9000
+Authors@R: person('Elie, Yvan', 'Arnaud, LeBras', email = 'elie.arnaud@mnhn.fr, yvan.le-bras@mnhn.fr', role = c('cre', 'aut'))
+Description: Initiatives for data description within 48h.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    shiny,
+    golem,
+    attempt,
+    DT,
+    glue,
+    htmltools
+RoxygenNote: 6.1.0
