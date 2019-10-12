@@ -42,7 +42,7 @@ créer une liste composée de sous-listes décrivant les métadonnées du fichie
 - taxonomyCleanr (A workflow and set of functions to clean your taxonomy data using R) https://github.com/EDIorg/taxonomyCleanr 
 - dataspice https://github.com/ropenscilabs/dataspice dont déjà des choses côté EML : https://github.com/ropenscilabs/dataspice/blob/master/R/eml_to_spice.R
 - dataCleanR (A collection of user friendly data cleaning functions - EDIorg/dataCleanr) https://github.com/EDIorg/dataCleanr/blob/master/README.md
- - time format management: iso8601_convert converts date and time strings to standard ISO 8601 formatted strings, https://ediorg.github.io/dataCleanr/articles/iso8601_functions.html
+  - time format management: iso8601_convert converts date and time strings to standard ISO 8601 formatted strings, https://ediorg.github.io/dataCleanr/articles/iso8601_functions.html
 ```
 Contaminants2 =read.table("Contaminants2.csv", header=TRUE, quote="", sep =";")
 dateContaminants2 = Contaminants2$Passage...Date #extration des données "date"
@@ -59,6 +59,7 @@ mettre orders='mdy HM' si l'heure est rensignée en plus.
     nompoissons = poissons$ESP_LAT[2]
     get_tsn(searchterm = as.character(nompoissons), searchtype = "scientific")
     ```
+    Output :
     ```
     > get_tsn(searchterm = as.character(nompoissons), searchtype = "scientific")
     ==  1 queries  ===============
@@ -81,13 +82,15 @@ mettre orders='mdy HM' si l'heure est rensignée en plus.
     [1] "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=172749"
     ```
   
-    - get synonyms
-    - retrieve classification :
+   - get synonyms
+   - retrieve classification :
   ```
   nompoissons = poissons$ESP_LAT[2]
   classification(as.character(nompoissons), db="gbif")
   ```
   you can specify the data source with the db argument like ITIS or NCBI (No ENTREZ API key provided with NCBI)
+  
+  Output :
   ```
   > classification(as.character(nompoissons), db="gbif")
   ==  1 queries  ===============
