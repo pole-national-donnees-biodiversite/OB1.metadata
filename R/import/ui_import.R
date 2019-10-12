@@ -1,5 +1,5 @@
 #' @import shiny
-ui_import <- function() {
+ui_import <- function(import_id) {
   #tagList(
   # Leave this function for adding external resources
   # golem_add_external_resources(),
