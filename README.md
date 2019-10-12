@@ -56,6 +56,13 @@ En termes d'outils, nous travaillons sur le développement d'une application int
 
 - Données accoustiques
   - https://cran.r-project.org/web/packages/bioacoustics/bioacoustics.pdf
+```
+# Tests via package R bioacoustics on PNMR AFB Data
+install.packages("bioacoustics")
+library("bioacoustics")
+blob_detection("PNMR_AFB_1786.wav", metadata = TRUE)
+threshold_detection("PNMR_AFB_1786.wav", metadata = TRUE)
+```
 
 Helper for making maps of species occurrence data
 - https://github.com/ropensci/mapr
