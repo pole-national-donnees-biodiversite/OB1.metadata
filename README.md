@@ -10,7 +10,7 @@ De plus en plus de données scientifiques sont aujourd'hui accessibles en accès
 
 **Objectifs**
 
-En termes d'outils, nous travaillons sur le développement d'une application interactive R Shiny nommée (MetaSHARK)[https://github.com/earnaud/MetaShARK]. Nous aimerions développer des “modules” en R ou autre langage permettant d’automatiser les traitements de données marines hétérogènes pour par exemple parcourir des données d'écologie (séquences d'ADN ou données de présence d'espèces) et environnementales (données satellitaires ou autres données décrivant les conditions physico-chimiques du milieu) pour remplir de manière automatique et/ou assistée les champs de métadonnées pouvant l’être (étendues taxonomique, géographique et temporelle de l’étude ...).  
+En termes d'outils, nous travaillons sur le développement d'une application interactive R Shiny nommée [MetaSHARK](https://github.com/earnaud/MetaShARK). Nous aimerions développer des “modules” en R ou autre langage permettant d’automatiser les traitements de données marines hétérogènes pour par exemple parcourir des données d'écologie (séquences d'ADN ou données de présence d'espèces) et environnementales (données satellitaires ou autres données décrivant les conditions physico-chimiques du milieu) pour remplir de manière automatique et/ou assistée les champs de métadonnées pouvant l’être (étendues taxonomique, géographique et temporelle de l’étude ...).  
 
 ## Pistes envisagées
 - Blockchain & Peer to Peer. Pour distribuer
