@@ -3,8 +3,8 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 #'
 #' @export
 library(shinydashboard)
+source("import/ui_import.R")
 source("semantics/semanticsUI.R")
-#set working directory from actual file path
 
 #run shiny app
 runApp(".")
