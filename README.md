@@ -104,6 +104,7 @@ Utilities / visualization / themes
 #### Annotation de données/métadonnées par ontologies :
 - annotateur d'ontologies : https://www.bioontology.org/wiki/Annotator_R_Client
 - Get mappings for a given class URI from an ontology other than EFO : https://www.rdocumentation.org/packages/AtlasRDF/versions/1.8.0/topics/getOntologyMappings
+- ontoCAT: an R package for ontology traversal and search https://academic.oup.com/bioinformatics/article/27/17/2468/223268
 
 ### Notion de liens avec provenance via ontologie :
 - ontologie provenance : https://www.w3.org/TR/prov-o/ -> voir lien avec notion de provenance dans EML
