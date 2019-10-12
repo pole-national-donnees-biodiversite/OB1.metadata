@@ -52,7 +52,10 @@ En termes d'outils, nous travaillons sur le développement d'une application int
   - ph_comstruct - higher level interface to comstruct
   - ph_comtrait - higher level interface to comtrait
   - ph_pd - higher level interface to Faith's phylogenetic diversity
-  
+
+- Données accoustiques
+  - https://cran.r-project.org/web/packages/bioacoustics/bioacoustics.pdf
+
 Helper for making maps of species occurrence data
 - https://github.com/ropensci/mapr
 
