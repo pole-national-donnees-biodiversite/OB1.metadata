@@ -16,6 +16,8 @@ app_ui <- function() {
                    icon = icon("home")),
           menuItem("Upload File", tabName = "upload_file", 
                    icon = icon("upload")),
+          menuItem("Inferences", tabName = "infer", 
+                   icon = icon("beer")),
           menuItem("Semantics", tabName = "semantics", 
                    icon = icon("project-diagram"))
         )
@@ -38,6 +40,9 @@ app_ui <- function() {
           ),
           tabItem("upload_file",
                   ui_import("import_id")
+          ),
+          tabItem("infer",
+                  fluidPage("infer")
           ),
           tabItem("semantics",
                   semanticsUI("semantics")

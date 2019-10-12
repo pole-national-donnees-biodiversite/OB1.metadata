@@ -1,12 +1,9 @@
 #set working directory from actual file path
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-#' Run the Shiny Application
-#'
-#' @export
-
 # imports
 toLoad <- c(
+  "shiny",
   "shinydashboard",
   "ontologyIndex"
 )
@@ -21,6 +18,9 @@ library(ontologyIndex)
 
 source("import/ui_import.R")
 source("semantics/semanticsUI.R")
+
+# options 
+options(shiny.reactlog = TRUE)
 
 #run shiny app
 runApp(".")
