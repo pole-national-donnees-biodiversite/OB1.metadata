@@ -15,7 +15,7 @@ app_ui <- function() {
       ),
       dashboardBody(
         tabItems(
-          tabItem(tabName = "welcome", fluidPage())
+          tabItem(tabName = "welcome", ui_import())
         )
       )
     )
