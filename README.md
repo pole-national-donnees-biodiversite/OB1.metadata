@@ -17,6 +17,7 @@ En termes d'outils, nous travaillons sur le développement d'une application int
   - A1 les données et/ou métadonnées (MTD)
   - A2 logiciels notamment ceux développés en B1 et B2
 - Deux modules R Shiny
+  - B0 Upload de fichiers
   - B1 "Inférence" automatique de MTD, notamment basé sur utilisation d'expression régulière (RegEx)
   - B2 "Sémantique" sur attributs (aussi nommés variables) : faire un lien entre les attributs et des ressoruces terminologiques exitantes notamment ontologies du domaine
 - Récupérer des données hétérogènes proposées au Océan hackathon + extérieures avec leurs MTD et proposer 
