@@ -52,6 +52,10 @@ mettre orders='mdy HM' si l'heure est rensignée en plus.
   
 - taxize " The EML R package can leverage existing functions in the R package taxize to automatically generate the rank classification metadata" / rOpenSci | taxize tutorial / taxa - taxonomic classes for R
   - https://ropensci.org/tutorials/taxize_tutorial/
+  - to have taxonomic IDS from many sources (worms, bold, itis)
+  - get synonyms
+  - retrieve classification
+  - to have scientific names from common names or vice versa
 - ritis - Integrated Taxonomic Information Service (ITIS) R client
   - https://github.com/ropensci/ritis
 - binomen - taxonomic name classes and parsing methods
