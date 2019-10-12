@@ -54,8 +54,35 @@ mettre orders='mdy HM' si l'heure est rensignée en plus.
 - taxize " The EML R package can leverage existing functions in the R package taxize to automatically generate the rank classification metadata" / rOpenSci | taxize tutorial / taxa - taxonomic classes for R
   - https://ropensci.org/tutorials/taxize_tutorial/
   - to have taxonomic IDS from many sources (worms, bold, itis)
-  - get synonyms
-  - retrieve classification :
+    - itis :
+    ```
+    nompoissons = poissons$ESP_LAT[2]
+    get_tsn(searchterm = as.character(nompoissons), searchtype = "scientific")
+    ```
+    ```
+    > get_tsn(searchterm = as.character(nompoissons), searchtype = "scientific")
+    ==  1 queries  ===============
+    Retrieving data for taxon 'Scophthalmus rhombus'
+    √  Found:  Scophthalmus rhombus
+    ==  Results  =================
+    * Total: 1 
+    * Found: 1 
+    * Not Found: 0
+    [1] "172749"
+    attr(,"class")
+    [1] "tsn"
+    attr(,"match")
+    [1] "found"
+    attr(,"multiple_matches")
+    [1] FALSE
+    attr(,"pattern_match")
+    [1] FALSE
+    attr(,"uri")
+    [1] "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=172749"
+    ```
+  
+    - get synonyms
+    - retrieve classification :
   ```
   nompoissons = poissons$ESP_LAT[2]
   classification(as.character(nompoissons), db="gbif")
@@ -86,7 +113,7 @@ mettre orders='mdy HM' si l'heure est rensignée en plus.
   [1] "gbif
   ```
 
-  - to have scientific names from common names or vice versa
+    - to have scientific names from common names or vice versa
 - scrubr https://cran.r-project.org/web/packages/scrubr/index.html
 
 - ritis - Integrated Taxonomic Information Service (ITIS) R client
