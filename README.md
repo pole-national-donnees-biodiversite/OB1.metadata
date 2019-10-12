@@ -368,6 +368,7 @@ Utilities / visualization / themes
 - EML (https://knb.ecoinformatics.org/#external//emlparser/docs/eml-2.1.1/index.html)
 - TETHYS (Passive Accoustic Monitoring) https://tethys.sdsu.edu/
   - "Where possible, we use concepts from ISO 19115 or OpenGIS SensorML3, but our emphasis is on meeting the needs of the marine mammal community in the most user-friendly way possible. As a consequence, we deviate from these standards. In addition, there are many concepts that are not covered in these standards such as recording detection effort."
+    - detection effort -> eml attribute / attributetype / measurementscale / interval / precision ?
 - Darwin-core https://dwc.tdwg.org/
 - ISO19139
   - http://www.geosource.fr/docs/appendix/glossary/iso19139/index.html 
