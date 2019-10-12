@@ -10,7 +10,16 @@ server_import <- function(input, output, session, savevar) {
 
     inFile <- input$file1
     
-    inFile
+    if (is.null(inFile))
+      return(NULL)
+
+      df <- read.csv(inFile$datapath,
+                     #header = input$header,
+                     sep = input$sep
+                     #quote = input$quote
+                     )
+      return(head(df))
+    
   })
   
   return(savevar)
