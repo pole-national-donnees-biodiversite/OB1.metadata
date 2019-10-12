@@ -35,13 +35,13 @@ En termes d'outils, nous travaillons sur le développement d'une application int
 - taxonomyCleanr (A workflow and set of functions to clean your taxonomy data using R) https://github.com/EDIorg/taxonomyCleanr 
 - dataspice https://github.com/ropenscilabs/dataspice dont déjà des choses côté EML : https://github.com/ropenscilabs/dataspice/blob/master/R/eml_to_spice.R
 - dataCleanR (A collection of user friendly data cleaning functions - EDIorg/dataCleanr) https://github.com/EDIorg/dataCleanr/blob/master/README.md
+  - time format management: iso8601_convert converts date and time strings to standard ISO 8601 formatted strings, https://ediorg.github.io/dataCleanr/articles/iso8601_functions.html
 - taxize " The EML R package can leverage existing functions in the R package taxize to automatically generate the rank classification metadata" / rOpenSci | taxize tutorial / taxa - taxonomic classes for R
   - https://ropensci.org/tutorials/taxize_tutorial/
 - ritis - Integrated Taxonomic Information Service (ITIS) R client
   - https://github.com/ropensci/ritis
 - binomen - taxonomic name classes and parsing methods
   - https://github.com/ropensci/binomen
-- time format management: iso8601_convert converts date and time strings to standard ISO 8601 formatted strings, https://ediorg.github.io/dataCleanr/articles/iso8601_functions.html
 
 - https://github.com/ropensci/phylocomr
   - ecovolve/ph_ecovolve - interface to ecovolve executable, and a higher level interface
