@@ -28,7 +28,6 @@ En termes d'outils, nous travaillons sur le développement d'une application int
   - Indicateurs / métriques autour de la "complétude" des données en MTD
   - Indicateurs / métriques autour des données stockées inutilement car non rétuilisable notamment car MTD pas assez détaillées
 
-
 ### Gestion métadonnées
 - datapackage https://github.com/frictionlessdata/datapackage-r notamment fonction dataPackage$infer 
 - metadatar https://github.com/annakrystalli/metadatar 
@@ -79,6 +78,18 @@ Utilities / visualization / themes
   - AFB espèces et habitats -> anniebirolo[@]afbiodiversité.fr
 - Génomique / Barcode of life : https://github.com/ropensci/bold/blob/master/README.md
 - couches environnementales : http://www.ccafs-climate.org/data/
+
+### Standards de métadonnées / Mapping / Spécifications
+- EML (https://knb.ecoinformatics.org/#external//emlparser/docs/eml-2.1.1/index.html)
+- THETHYS (Passive Accoustic Monitoring) https://tethys.sdsu.edu/
+- Darwin-core https://dwc.tdwg.org/
+- ISO19139
+  - http://www.geosource.fr/docs/appendix/glossary/iso19139/index.html 
+  - https://inspire.ec.europa.eu/id/document/tg/metadata-iso19139
+- convertisseurs existants
+  - https://github.com/gbif/eml-profile/blob/master/eml2iso19139.xsl
+  - https://github.com/NCEAS/iso2eml
+
 
 ### Ontologies et liens avec module semantics
 #### Sources d'ontologies d'intérêt
