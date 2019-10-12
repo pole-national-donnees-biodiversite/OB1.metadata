@@ -56,6 +56,9 @@ En termes d'outils, nous travaillons sur le développement d'une application int
 Helper for making maps of species occurrence data
 - https://github.com/ropensci/mapr
 
+Petit site sympa pour tester expressions régulières (merci Laura ;) )
+- https://regexr.com/
+
 ### Visualization
 vis_dat helps you visualise a dataframe and “get a look at the data” by displaying the variable classes in a dataframe as a plot with vis_dat, and getting a brief look into missing data patterns using vis_miss.
 - https://github.com/ropensci/visdat/blob/master/README.md
