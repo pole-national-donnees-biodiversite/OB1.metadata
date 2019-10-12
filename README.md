@@ -23,7 +23,8 @@ En termes d'outils, nous travaillons sur le développement d'une application int
   - C1 d'y ajouter des MTD -> structuration / qualification des MTD
   - C2 Faire remonter aux entrepôts des données d'origine les améliorations de MTD
 - "Mapping" manuel de standards entre
-  - D1 ISO19139 / EML / Darwin-Core par exemple
+  - D1 ISO19139 / EML / Darwin-Core / Tethys
+  - Tethys
 - Business Model
   - Indicateurs / métriques autour de la "complétude" des données en MTD
   - Indicateurs / métriques autour des données stockées inutilement car non rétuilisable notamment car MTD pas assez détaillées
@@ -81,7 +82,8 @@ Utilities / visualization / themes
 
 ### Standards de métadonnées / Mapping / Spécifications
 - EML (https://knb.ecoinformatics.org/#external//emlparser/docs/eml-2.1.1/index.html)
-- THETHYS (Passive Accoustic Monitoring) https://tethys.sdsu.edu/
+- TETHYS (Passive Accoustic Monitoring) https://tethys.sdsu.edu/
+  - "Where possible, we use concepts from ISO 19115 or OpenGIS SensorML3, but our emphasis is on meeting the needs of the marine mammal community in the most user-friendly way possible. As a consequence, we deviate from these standards. In addition, there are many concepts that are not covered in these standards such as recording detection effort."
 - Darwin-core https://dwc.tdwg.org/
 - ISO19139
   - http://www.geosource.fr/docs/appendix/glossary/iso19139/index.html 
