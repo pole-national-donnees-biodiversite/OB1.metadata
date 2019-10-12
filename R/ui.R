@@ -11,11 +11,20 @@ app_ui <- function() {
         title = "OB1.metadata"),
       dashboardSidebar(
         menuItem("Welcome", tabName = "welcome", 
-                 icon = icon("home"))
+                 icon = icon("home")),
+        menuItem("Upload File", tabName = "upload file", 
+                 icon = icon("upload"))
       ),
       dashboardBody(
         tabItems(
-          tabItem(tabName = "welcome", ui_import())
+          tabItem(
+            tabName = "welcome", 
+            fluidPage("pitch by Yvan")
+          ),
+          tabItem(
+            tabName = "upload file", 
+            ui_import()
+          )
         )
       )
     )
