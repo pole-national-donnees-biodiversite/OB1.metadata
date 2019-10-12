@@ -11,14 +11,17 @@ toLoad <- c(
   "ontologyIndex"
 )
 sapply(toLoad, function(lib){
-  installed.packages()
+  if(!(lib %in% installed.packages()[,"Package"]))
+    install.packages(lib)
+  library(lib)
 })
-library(shinydashboard)
-library(ontologyIndex)
+# library(shinydashboard)
+# library(ontologyIndex)
 
 # sources
-source("semantics/semanticsUI.R")
 
+source("import/ui_import.R")
+source("semantics/semanticsUI.R")
 
 #run shiny app
 runApp(".")

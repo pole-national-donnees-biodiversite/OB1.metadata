@@ -14,6 +14,8 @@ app_ui <- function() {
         sidebarMenu(
           menuItem("Welcome", tabName = "welcome", 
                    icon = icon("home")),
+          menuItem("Upload File", tabName = "upload file", 
+                   icon = icon("upload")),
           menuItem("Semantics", tabName = "semantics", 
                    icon = icon("project-diagram"))
         )
@@ -32,7 +34,10 @@ app_ui <- function() {
         # ),
         tabItems(
           tabItem("welcome",
-                  fluidPage(h1("Hello !"))
+                  fluidPage(h1("Pitch by Yvan"))
+          ),
+          tabItem(tabName = "upload file",
+                  ui_import("import_id")
           ),
           tabItem("semantics",
                   semanticsUI("semantics")
