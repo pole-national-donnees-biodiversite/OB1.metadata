@@ -58,6 +58,7 @@ Utilities / visualization / themes
   - http://data.ifremer.fr/pdmi/portalssearch/main
   - http://donnees-campagnes.flotteoceanographique.fr/
   - https://data.shom.fr/donnees#001=eyJjIjpbLTY2MjgwNyw1ODIyOTI3XSwieiI6NiwiciI6MCwibCI6W3sidHlwZSI6IklOVEVSTkFMX0xBWUVSIiwiaWRlbnRpZmllciI6IkZEQ19HRUJDT19QWVItUE5HXzM4NTdfV01UUyIsIm9wYWNpdHkiOjEsInZpc2liaWxpdHkiOnRydWV9XX0=
+  - AFB espèces et habitats -> anniebirolo[@]afbiodiversité.fr
 - Génomique / Barcode of life : https://github.com/ropensci/bold/blob/master/README.md
 - couches environnementales : http://www.ccafs-climate.org/data/
 
