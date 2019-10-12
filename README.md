@@ -1,6 +1,6 @@
 # Défi OB1  
 
-_Elie Arnaud, Yvan LeBras_  
+_Elie Arnaud, Yvan Le Bras_  
 
 Git de l'équipe OB1 de l'Ocean Hackathon 2019 - Brest.  
 
@@ -14,4 +14,65 @@ En termes d'outils, nous travaillons sur le développement d'une application int
 
 ## Pistes envisagées
 
-//TODO  
+### Gestion métadonnées
+- datapackage https://github.com/frictionlessdata/datapackage-r notamment fonction dataPackage$infer 
+- metadatar https://github.com/annakrystalli/metadatar 
+- taxonomyCleanr (A workflow and set of functions to clean your taxonomy data using R) https://github.com/EDIorg/taxonomyCleanr 
+- dataspice https://github.com/ropenscilabs/dataspice dont déjà des choses côté EML : https://github.com/ropenscilabs/dataspice/blob/master/R/eml_to_spice.R
+- dataCleanR (A collection of user friendly data cleaning functions - EDIorg/dataCleanr) https://github.com/EDIorg/dataCleanr/blob/master/README.md
+- taxize " The EML R package can leverage existing functions in the R package taxize to automatically generate the rank classification metadata" / rOpenSci | taxize tutorial / taxa - taxonomic classes for R
+  - https://ropensci.org/tutorials/taxize_tutorial/
+- ritis - Integrated Taxonomic Information Service (ITIS) R client
+  - https://github.com/ropensci/ritis
+- binomen - taxonomic name classes and parsing methods
+  - https://github.com/ropensci/binomen
+
+- https://github.com/ropensci/phylocomr
+  - ecovolve/ph_ecovolve - interface to ecovolve executable, and a higher level interface
+  - phylomatic/ph_phylomatic - interface to phylomatic executable, and a higher level interface
+  - phylocom - interface to phylocom executable
+  - ph_aot - higher level interface to aot
+  - ph_bladj - higher level interface to bladj
+  - ph_comdist/ph_comdistnt - higher level interface to comdist
+  - ph_comstruct - higher level interface to comstruct
+  - ph_comtrait - higher level interface to comtrait
+  - ph_pd - higher level interface to Faith's phylogenetic diversity
+  
+Helper for making maps of species occurrence data
+- https://github.com/ropensci/mapr
+
+### Visualization
+vis_dat helps you visualise a dataframe and “get a look at the data” by displaying the variable classes in a dataframe as a plot with vis_dat, and getting a brief look into missing data patterns using vis_miss.
+- https://github.com/ropensci/visdat/blob/master/README.md
+Count number of points within polygons / Average value of a field for a set of points within a set of polygons .... /
+- https://github.com/ropensci/lawn
+Utilities / visualization / themes
+- https://github.com/ropensci/landscapetools
+
+#### Création de sites par fiche métadonnées EML
+- https://github.com/ropenscilabs/emldown
+
+### Récupération de données :
+- Données du hackathon:
+  - http://oceanhackathon.indigeo.fr/geocms/maps/oceanhackathon-wpjdbpbc#project
+  - http://data.ifremer.fr/pdmi/portalssearch/main
+  - http://donnees-campagnes.flotteoceanographique.fr/
+  - https://data.shom.fr/donnees#001=eyJjIjpbLTY2MjgwNyw1ODIyOTI3XSwieiI6NiwiciI6MCwibCI6W3sidHlwZSI6IklOVEVSTkFMX0xBWUVSIiwiaWRlbnRpZmllciI6IkZEQ19HRUJDT19QWVItUE5HXzM4NTdfV01UUyIsIm9wYWNpdHkiOjEsInZpc2liaWxpdHkiOnRydWV9XX0=
+- Génomique / Barcode of life : https://github.com/ropensci/bold/blob/master/README.md
+- couches environnementales : http://www.ccafs-climate.org/data/
+
+### Ontologies et liens avec module semantics
+#### Sources d'ontologies d'intérêt
+- https://bioportal.bioontology.org/
+- http://vocabs.lter-europe.net/edg/tbl/EnvThes.editor#http%3A%2F%2Fvocabs.lter-europe.net%2FEnvThes%2F21439
+- http://semandiv.agroportal.lirmm.fr/
+- http://agroportal.lirmm.fr/annotator
+- https://www.rdocumentation.org/packages/AtlasRDF/versions/1.8.0/topics/getOntologyMappings
+
+#### Annotation de données/métadonnées par ontologies :
+- annotateur d'ontologies : https://www.bioontology.org/wiki/Annotator_R_Client
+- Get mappings for a given class URI from an ontology other than EFO : https://www.rdocumentation.org/packages/AtlasRDF/versions/1.8.0/topics/getOntologyMappings
+
+### Notion de liens avec provenance via ontologie :
+- ontologie provenance : https://www.w3.org/TR/prov-o/ -> voir lien avec notion de provenance dans EML
+
