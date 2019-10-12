@@ -1,7 +1,7 @@
 # semanticsUI.R
 
-source("Semantics/semantics.R")
-source("Semantics/semantics_functions.R")
+source("semantics/semantics.R")
+source("semantics/semantics_functions.R")
 
 # UI
 semanticsUI <- function(id){
