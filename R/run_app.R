@@ -13,10 +13,9 @@ toLoad <- c(
 sapply(toLoad, function(lib){
   if(!(lib %in% installed.packages()[,"Package"]))
     install.packages(lib)
-  library(lib)
 })
-# library(shinydashboard)
-# library(ontologyIndex)
+library(shinydashboard)
+library(ontologyIndex)
 
 # sources
 
