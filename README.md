@@ -418,6 +418,48 @@ Output
   HyperfocalDistance LightValue
 1           89.86143   14.64386
 ```
+- videos
+```
+library("exiftoolr")
+mov <- exif_read("PNMR_AFB_K7_N01_Seq_27_Bateau_peche_ligneur.mov")
+```
+Output:
+```
+                                       SourceFile ExifToolVersion
+1 PNMR_AFB_K7_N01_Seq_27_Bateau_peche_ligneur.mov            11.7
+                                         FileName Directory FileSize            FileModifyDate
+1 PNMR_AFB_K7_N01_Seq_27_Bateau_peche_ligneur.mov         . 28556655 2019:10:12 17:14:00+02:00
+             FileAccessDate            FileCreateDate FilePermissions FileType FileTypeExtension
+1 2019:10:13 11:46:00+02:00 2019:10:12 17:25:40+02:00             666      MOV               MOV
+         MIMEType MajorBrand MinorVersion CompatibleBrands MovieDataSize MovieDataOffset
+1 video/quicktime       qt       2005.3.0             qt        28540880              48
+  MovieHeaderVersion          CreateDate          ModifyDate TimeScale Duration PreferredRate
+1                  0 2012:04:16 09:26:01 2012:04:16 09:26:01      2500     7.88             1
+  PreferredVolume PreviewTime PreviewDuration PosterTime SelectionTime SelectionDuration
+1               1           0               0          0             0                 0
+  CurrentTime NextTrackID TrackHeaderVersion     TrackCreateDate     TrackModifyDate TrackID
+1           0           5                  0 2012:04:16 09:26:01 2012:04:16 09:26:01       1
+  TrackDuration TrackLayer TrackVolume ImageWidth ImageHeight CleanApertureDimensions
+1          7.88          0           0       1440        1080               1888 1062
+  ProductionApertureDimensions EncodedPixelsDimensions TimeCode GraphicsMode           OpColor
+1                    1920 1080               1440 1080        4           64 32768 32768 32768
+  CompressorID VendorID SourceImageWidth SourceImageHeight XResolution YResolution CompressorName
+1         hdv3     appl             1440              1080          72          72    HDV 1080i50
+  BitDepth VideoFrameRate                                            PartialSyncSamples Balance
+1       24             25 1 13 25 37 49 61 73 85 97 109 121 133 145 157 169 181 193 205       0
+  AudioFormat AudioChannels AudioBitsPerSample AudioSampleRate LayoutFlags   MatrixStructure
+1        sowt             1                 16           48000           0 1 0 0 0 1 0 0 0 1
+  MediaHeaderVersion     MediaCreateDate     MediaModifyDate MediaTimeScale MediaDuration
+1                  0 2012:04:16 09:26:01 2012:04:16 09:26:01           2500          8.64
+  GenMediaVersion GenFlags GenGraphicsMode        GenOpColor GenBalance TextFont TextFace TextSize
+1               0    0 0 0              64 32768 32768 32768          0       22        0       12
+  TextColor   BackgroundColor FontName HandlerClass HandlerVendorID
+1     0 0 0 65535 65535 65535  Courier         dhlr            appl
+                           HandlerDescription OtherFormat OtherName HandlerType
+1 base64:R2VzdGlvbm5haXJlIGTVYWxpYXMgQXBwbGU=        tmcd     001-B        mdta
+       ComAppleFinalcutstudioMediaUuid ImageSize Megapixels AvgBitrate Rotation
+1 3485E89D-EAAD-4E62-A851-69E35C408473 1440 1080     1.5552   28975513        0
+```
 - SIG data
 ```
 install.packages("rgdal")
