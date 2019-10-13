@@ -1,0 +1,316 @@
+ID;VALIDE;DATE;HEURE;LAT.;LONG.;PRECISION LIEU;TERRE/MER/AIR;ESPECE;PRECISION ESPECE;DAUPHIN SOLITAIRE;NOM DU DAUPHIN SOLITAIRE;NOMBRE;NOMBRE MINIMUM;NOMBRE MAXIMUM;SOURCE;ORGANISMES;RESEAUX
+2821;oui;22/07/2004;10:15:00;48.727778;-4.125;0;2;Grand dauphin;A;non;;0;5;7;Base de donnees;Inconnu;GECC
+2826;oui;25/07/2004;15:00:00;47.95;-4.7;0;2;Dauphin commun;A;non;;20;0;0;Base de donnees;Inconnu;GECC
+3018;oui;04/08/2005;08:21:00;48.833333;-4.85;1;2;Marsouin commun;A;non;;4;0;0;Base de donnees;Naturaliste;GECC
+3045;oui;10/08/2005;13:35:00;48.15;-5.35;1;2;Dauphin commun;A;non;;10;0;0;Base de donnees;Naturaliste;GECC
+3078;oui;15/08/2005;08:37:00;48.883333;-4.75;1;2;Marsouin commun;A;non;;2;0;0;Base de donnees;Naturaliste;GECC
+3079;oui;15/08/2005;08:39:00;48.883333;-4.716667;1;2;Marsouin commun;A;non;;3;0;0;Base de donnees;Naturaliste;GECC
+3080;oui;15/08/2005;08:47:00;48.9;-4.683333;1;2;Marsouin commun;A;non;;4;0;0;Base de donnees;Naturaliste;GECC
+3082;oui;15/08/2005;08:50:00;48.916667;-4.666667;1;2;Marsouin commun;A;non;;5;0;0;Base de donnees;Naturaliste;GECC
+3083;oui;15/08/2005;08:54:00;48.933333;-4.633333;1;2;Marsouin commun;A;non;;5;0;0;Base de donnees;Naturaliste;GECC
+3084;oui;15/08/2005;06:05:00;48.3;-5.366667;1;2;Grand dauphin;A;non;;4;0;0;Base de donnees;Naturaliste;GECC
+3086;oui;16/08/2005;10:58:00;48.866667;-4.883333;1;2;Petit rorqual;A;non;;1;0;0;Base de donnees;Naturaliste;GECC
+3093;oui;16/08/2005;11:05:00;48.833333;-4.916667;1;2;Grand dauphin;A;non;;10;0;0;Base de donnees;Naturaliste;GECC
+3230;oui;03/08/2006;11:53:00;48.166667;-5.416667;1;2;Dauphin bleu et blanc;A;non;;4;0;0;Base de donnees;Naturaliste;GECC
+3264;oui;08/08/2006;18:55:00;48.066667;-5.583333;1;2;Grand dauphin;A;non;;1;0;0;Base de donnees;Naturaliste;GECC
+3265;oui;08/08/2006;18:55:00;48.066667;-5.583333;1;2;Grand dauphin;A;non;;1;0;0;Base de donnees;Naturaliste;GECC
+3266;oui;08/08/2006;10:46:00;48.366667;-5.45;1;2;Grand dauphin;A;non;;20;0;0;Base de donnees;Naturaliste;GECC
+3279;oui;15/08/2006;08:50:00;48.783333;-4.95;1;2;Petit rorqual;A;non;;2;0;0;Base de donnees;Naturaliste;GECC
+3497;oui;10/08/2007;08:54:00;48.566667;-5.316667;1;2;Phoque gris;A;non;;1;0;0;Base de donnees;Naturaliste;GECC
+3498;oui;10/08/2007;06:50:00;48.316667;-4.433333;1;2;Marsouin commun;A;non;;1;0;0;Base de donnees;Naturaliste;GECC
+3499;oui;10/08/2007;10:16:00;48.166667;-5.616667;1;2;Marsouin commun;A;non;;10;0;0;Base de donnees;Naturaliste;GECC
+3500;oui;10/08/2007;10:48:00;48;-5.65;1;2;Marsouin commun;A;non;;10;0;0;Base de donnees;Naturaliste;GECC
+3501;oui;10/08/2007;07:05:00;48.633333;-4.833333;1;2;Marsouin commun;A;non;;10;0;0;Base de donnees;Naturaliste;GECC
+3502;oui;10/08/2007;08:35:00;48.65;-5.2;1;2;Marsouin commun;A;non;;10;0;0;Base de donnees;Naturaliste;GECC
+3503;oui;10/08/2007;09:34:00;48.466667;-5.483333;1;2;Marsouin commun;A;non;;20;0;0;Base de donnees;Naturaliste;GECC
+3504;oui;10/08/2007;06:55:00;48.35;-4.5;1;2;Marsouin commun;A;non;;3;0;0;Base de donnees;Naturaliste;GECC
+3505;oui;10/08/2007;08:31:00;48.666667;-5.166667;1;2;Marsouin commun;A;non;;3;0;0;Base de donnees;Naturaliste;GECC
+3506;oui;10/08/2007;08:58:00;48.55;-5.416667;1;2;Marsouin commun;A;non;;3;0;0;Base de donnees;Naturaliste;GECC
+3507;oui;10/08/2007;08:37:00;48.65;-5.233333;1;2;Marsouin commun;A;non;;5;0;0;Base de donnees;Naturaliste;GECC
+3508;oui;10/08/2007;06:30:00;48.15;-4.333333;1;2;Marsouin commun;A;non;;4;0;0;Base de donnees;Naturaliste;GECC
+3509;oui;10/08/2007;08:43:00;48.8;-5.25;1;2;Marsouin commun;A;non;;4;0;0;Base de donnees;Naturaliste;GECC
+3510;oui;10/08/2007;10:23:00;48.133333;-5.616667;1;2;Marsouin commun;A;non;;5;0;0;Base de donnees;Naturaliste;GECC
+3511;oui;10/08/2007;10:35:00;48.066667;-5.633333;1;2;Marsouin commun;A;non;;5;0;0;Base de donnees;Naturaliste;GECC
+3512;oui;10/08/2007;08:12:00;48.716667;-5.033333;1;2;Marsouin commun;A;non;;5;0;0;Base de donnees;Naturaliste;GECC
+3513;oui;10/08/2007;08:26:00;48.683333;-5.133333;1;2;Marsouin commun;A;non;;5;0;0;Base de donnees;Naturaliste;GECC
+3514;oui;10/08/2007;06:40:00;48.25;-5.212;1;2;Marsouin commun;A;non;;6;1;2;Base de donnees;Naturaliste;GECC
+3515;oui;10/08/2007;09:07:00;48.516667;-5.4;1;2;Marsouin commun;A;non;;7;0;0;Base de donnees;Naturaliste;GECC
+3522;oui;10/08/2007;08:48:00;48.716667;-5.283333;1;2;Grand dauphin;A;non;;20;0;0;Base de donnees;Naturaliste;GECC
+3523;oui;10/08/2007;10:31:00;48.083333;-5.633333;1;2;Grand dauphin;A;non;;25;0;0;Base de donnees;Naturaliste;GECC
+3567;oui;16/08/2007;15:55:00;47.966667;-5.383333;1;2;Dauphin commun;A;non;;10;0;0;Base de donnees;Naturaliste;GECC
+3861;oui;14/09/2008;12:34:00;48.05;-5.4;1;2;Marsouin commun;A;non;;10;0;0;Base de donnees;Naturaliste;GECC
+3862;oui;14/09/2008;12:49:00;47.966667;-5.4;1;2;Marsouin commun;A;non;;10;0;0;Base de donnees;Naturaliste;GECC
+3865;oui;14/09/2008;12:45:00;47.983333;-5.4;1;2;Marsouin commun;A;non;;50;0;0;Base de donnees;Naturaliste;GECC
+3869;oui;14/09/2008;12:57:00;47.933333;-5.4;1;2;Grand dauphin;A;non;;30;0;0;Base de donnees;Naturaliste;GECC
+3907;oui;11/02/2009;17:00:00;48.0493;-4.8598;3;3;Phoque gris;A;non;;6;0;0;Base de donnees;Inconnu;GECC
+3925;oui;24/02/2009;16:00:00;48.095;-4.556;3;3;Marsouin commun;A;non;;3;0;0;Base de donnees;Inconnu;GECC
+4106;oui;11/08/2009;14:02:00;47.933333;-5.151;1;2;Dauphin commun;A;non;;15;1;2;Base de donnees;Naturaliste;GECC
+4119;oui;13/08/2009;11:28:00;48.7;-5.1;1;2;Petit rorqual;A;non;;1;0;0;Base de donnees;Naturaliste;GECC
+4133;oui;13/08/2009;13:44:00;48.016667;-5.333333;1;2;Marsouin commun;A;non;;3;0;0;Base de donnees;Naturaliste;GECC
+4136;oui;13/08/2009;13:45:00;48.016667;-5.333333;1;2;Grand dauphin;A;non;;10;0;0;Base de donnees;Naturaliste;GECC
+4145;oui;19/08/2009;00:00:00;48.4817;-5.1039;3;3;Dauphin commun;B;non;;1;0;0;Base de donnees;Naturaliste;PM M.Iroise
+4193;oui;21/09/2009;10:52:00;48;-5.366667;1;2;Petit rorqual;A;non;;1;0;0;Base de donnees;Naturaliste;GECC
+4202;oui;21/09/2009;10:00:00;48.283333;-5.416667;1;2;Marsouin commun;A;non;;1;0;0;Base de donnees;Naturaliste;GECC
+4203;oui;21/09/2009;10:04:00;48.25;-5.416667;1;2;Marsouin commun;A;non;;3;0;0;Base de donnees;Naturaliste;GECC
+4204;oui;21/09/2009;10:28:00;48.116667;-5.4;1;2;Marsouin commun;A;non;;4;0;0;Base de donnees;Naturaliste;GECC
+4205;oui;21/09/2009;10:38:00;48.066667;-5.383333;1;2;Marsouin commun;A;non;;5;0;0;Base de donnees;Naturaliste;GECC
+4206;oui;21/09/2009;10:52:00;48;-5.366667;1;2;Marsouin commun;A;non;;5;0;0;Base de donnees;Naturaliste;GECC
+4207;oui;21/09/2009;10:22:00;48.15;-5.416667;1;2;Grand dauphin;A;non;;10;0;0;Base de donnees;Naturaliste;GECC
+4221;oui;12/10/2009;10:35:00;48.3546;-4.8385;1;3;Grand dauphin;A;non;;8;0;0;Base de donnees;Inconnu;GECC
+4226;oui;19/10/2009;10:15:00;48.0356;-4.8425;1;3;Grand dauphin;A;oui;Georges;1;0;0;Base de donnees;Inconnu;GECC
+4227;oui;20/10/2009;11:30:00;48.0356;-4.8425;2;3;Grand dauphin;A;oui;Georges;1;0;0;Base de donnees;Inconnu;PM M.Iroise
+4243;oui;11/12/2009;14:00:00;48.3565;-4.7873;1;3;Phoque gris;A;non;;1;0;0;Base de donnees;Inconnu;PM M.Iroise
+4244;oui;15/12/2009;14:00:00;48.3386;-4.7705;1;3;Phoque gris;A;non;;1;0;0;Base de donnees;Inconnu;PM M.Iroise
+4270;oui;12/02/2010;10:00:00;48.3565;-4.7746;1;3;Grand dauphin;A;oui;Georges;1;0;0;Base de donnees;Inconnu;GECC
+4385;oui;11/06/2010;14:00:00;48.3693;-4.8819;3;3;Phoque veau-marin;A;non;;1;0;0;Base de donnees;Inconnu;PM M.Iroise
+4439;oui;15/07/2010;00:00:00;48.367;-4.4528;3;3;Dauphin de Risso;A;non;;1;0;0;Base de donnees;Inconnu;PM M.Iroise
+4462;oui;27/07/2010;15:00:00;48.3943;-4.8975;3;3;Phoque veau-marin;A;non;;1;0;0;Base de donnees;Inconnu;PM M.Iroise
+4498;oui;06/08/2010;12:38:00;47.933333;-5.35;1;2;Grand dauphin;A;non;;8;0;0;Base de donnees;Naturaliste;GECC
+4512;oui;10/08/2010;11:30:00;48.3881;-4.8881;1;3;Dauphin commun;A;non;;2;0;0;Base de donnees;Inconnu;GECC
+4541;oui;12/08/2010;11:11:00;48.183333;-5.416667;1;2;Marsouin commun;A;non;;1;0;0;Base de donnees;Naturaliste;GECC
+4542;oui;12/08/2010;11:35:00;48.066667;-5.4;1;2;Marsouin commun;A;non;;2;0;0;Base de donnees;Naturaliste;GECC
+4543;oui;12/08/2010;10:46:00;48.333333;-5.416667;1;2;Marsouin commun;A;non;;3;0;0;Base de donnees;Naturaliste;GECC
+4546;oui;12/08/2010;11:46:00;48;-5.383333;1;2;Grand dauphin;A;non;;5;0;0;Base de donnees;Naturaliste;GECC
+4608;oui;11/09/2010;11:10:00;48.45;-5.416667;1;2;Marsouin commun;A;non;;2;0;0;Base de donnees;Naturaliste;GECC
+4651;oui;20/09/2010;10:42:00;48.166667;-5.416667;1;2;Dauphin commun;A;non;;15;0;0;Base de donnees;Naturaliste;GECC
+4661;oui;20/09/2010;10:23:00;48.25;-5.433333;1;2;Dauphin commun;A;non;;6;0;0;Base de donnees;Naturaliste;GECC
+4699;oui;18/10/2010;12:00:00;48.3375;-4.8632;3;3;Grand dauphin;A;non;;0;13;17;Base de donnees;Inconnu;PM M.Iroise
+4700;oui;20/10/2010;14:00:00;48.41639;-5.14623;3;3;Dauphin commun;A;non;;100;0;0;Base de donnees;Inconnu;GECC
+4715;oui;05/11/2010;12:00:00;48.36238;-4.93848;3;3;Grand dauphin;A;non;;0;13;17;Base de donnees;Inconnu;PM M.Iroise
+4751;oui;25/01/2011;16:00:00;48.13919;-4.61699;3;3;Marsouin commun;A;non;;2;0;0;Base de donnees;Inconnu;GECC
+4768;oui;21/02/2011;00:00:00;48.0356;-4.8425;2;3;Grand dauphin;A;oui;Georges;1;0;0;Base de donnees;Inconnu;PM M.Iroise
+4769;oui;21/02/2011;00:00:00;48.0356;-4.8425;2;3;Grand dauphin;A;oui;Georges;1;0;0;Base de donnees;Inconnu;GECC
+4869;oui;20/04/2011;11:00:00;48.0356;-4.8425;2;3;Grand dauphin;A;oui;Georges;1;0;0;Base de donnees;Inconnu;PM M.Iroise
+4933;oui;16/05/2011;11:00:00;48.0971;-4.3402;2;3;Grand dauphin;A;oui;Georges;1;0;0;Base de donnees;Inconnu;PM M.Iroise
+4970;oui;05/06/2011;00:00:00;48.0971;-4.3402;2;3;Grand dauphin;A;oui;Georges;1;0;0;Base de donnees;Inconnu;PM M.Iroise
+5430;oui;13/10/2011;11:00:00;48.2506;-4.8891;1;3;Dauphin commun;A;non;;0;190;210;Base de donnees;Inconnu;GECC
+5431;oui;13/10/2011;11:00:00;48.2506;-4.8891;1;3;Petit rorqual;A;non;;1;0;0;Base de donnees;Inconnu;GECC
+5500;oui;09/12/2011;15:00:00;48.1536;-4.4766;1;3;Marsouin commun;A;non;;0;1;2;Base de donnees;Inconnu;GECC
+5525;oui;09/01/2012;11:00:00;48.1365;-4.4863;1;3;Dauphin commun;A;non;;0;8;12;Base de donnees;Inconnu;GECC
+5532;oui;13/01/2012;09:15:00;48.1333;-4.4128;1;3;Dauphin commun;A;non;;0;48;52;Base de donnees;Inconnu;GECC
+5535;oui;18/01/2012;09:45:00;48.1036;-4.498;1;3;Dauphin commun;A;non;;0;23;27;Base de donnees;Naturaliste;PM M.Iroise
+5536;oui;18/01/2012;10:00:00;48.0885;-4.6825;1;3;Dauphin commun;A;non;;0;8;12;Base de donnees;Naturaliste;PM M.Iroise
+5593;oui;02/03/2012;07:30:00;48.1063;-4.3406;1;3;Marsouin commun;A;non;;1;0;0;Base de donnees;Inconnu;GECC
+5712;oui;20/06/2012;11:00:00;48.3887;-5.017;3;3;Phoque gris;A;non;;1;0;0;Base de donnees;Inconnu;GECC
+5775;oui;10/08/2012;09:00:00;48.0891;-4.9228;1;3;Dauphin commun;A;non;;0;48;52;Base de donnees;Inconnu;GECC
+5797;oui;06/09/2012;13:00:00;48.2453;-4.5621;3;3;Grand dauphin;A;oui;Georges;1;0;0;Base de donnees;Inconnu;GECC
+5805;oui;10/09/2012;00:00:00;48.0565;-4.9695;1;3;Dauphin commun;A;non;;0;18;22;Base de donnees;Inconnu;GECC
+5807;oui;12/09/2012;00:00:00;48.0565;-4.9695;1;3;Dauphin commun;A;non;;0;18;22;Base de donnees;Inconnu;GECC
+5837;oui;07/11/2012;09:00:00;48.05;-5.0666;1;3;Dauphin commun;A;non;;10;0;0;Base de donnees;Inconnu;GECC
+5850;oui;15/11/2012;08:30:00;48.1058;-4.4326;1;3;Marsouin commun;A;non;;0;1;2;Base de donnees;Naturaliste;PM M.Iroise
+5858;oui;23/11/2012;10:30:00;48.1063;-4.5528;1;3;Marsouin commun;A;non;;1;0;0;Base de donnees;Inconnu;GECC
+5868;oui;08/12/2012;00:00:00;48.35921;-4.872708;2;2;Grand dauphin;A;non;;0;20;30;Youtube;Inconnu;GECC
+5873;oui;21/12/2012;10:30:00;48.0561;-4.7718;1;3;Marsouin commun;A;non;;2;0;0;Base de donnees;Inconnu;GECC
+5908;oui;14/02/2013;09:00:00;48.104;-4.3367;3;3;Dauphin commun;A;non;;20;0;0;Base de donnees;Inconnu;GECC
+5960;oui;29/04/2013;00:00:00;48.524;-4.9577;3;3;Dauphin commun;A;non;;1;0;0;Base de donnees;Naturaliste;PM M.Iroise
+6080;oui;24/07/2013;08:52:00;48.593333;-5.709767;1;2;Dauphin de Risso;A;non;;1;0;0;Base de donnees;Inconnu;GECC
+6095;oui;31/07/2013;15:15:00;48.3952;-4.8891;2;3;Dauphin commun;A;non;;0;7;8;Base de donnees;Inconnu;GECC
+6107;oui;02/08/2013;10:00:00;48.0748;-4.6337;3;3;Dauphin commun;A;non;;15;0;0;Base de donnees;Inconnu;GECC
+6108;oui;02/08/2013;14:00:00;48.0333;-5.0833;3;3;Dauphin commun;A;non;;20;0;0;Base de donnees;Inconnu;GECC
+6150;oui;12/08/2013;14:00:00;48.0971;-4.3402;2;3;Grand dauphin;A;oui;Georges;1;0;0;Base de donnees;Inconnu;GECC
+6173;oui;21/08/2013;09:00:00;48.1201;-4.3396;3;3;Dauphin commun;A;non;;50;0;0;Base de donnees;Inconnu;GECC
+6247;oui;14/10/2013;00:00:00;48.69956;-4.116283;2;2;Dauphin commun;A;non;;0;30;40;Base de donnees;Inconnu;GECC
+6269;oui;28/11/2013;16:30:00;48.16;-4.3975;1;3;Dauphin commun;A;non;;10;0;0;Base de donnees;Inconnu;GECC
+6270;oui;28/11/2013;14:30:00;48.05399;-4.8922;3;3;Marsouin commun;A;non;;1;0;0;Base de donnees;Inconnu;GECC
+6277;oui;06/12/2013;00:00:00;48.461921;-5.004313;0;2;Dauphin commun;A;non;;0;0;0;Youtube;Inconnu;GECC
+6333;oui;10/04/2014;00:00:00;48.434282;-5.12992;0;2;Grand dauphin;A;oui;Georges;1;0;0;Youtube;Inconnu;GECC
+6394;oui;08/07/2014;00:00:00;48.17;-4.433;2;2;Dauphin de Risso;A;non;;0;0;0;Base de donnees;Inconnu;GECC
+6395;oui;09/07/2014;00:00:00;48.147946;-4.408016;2;2;Dauphin de Risso;A;non;;0;0;0;Base de donnees;Inconnu;GECC
+6397;oui;10/07/2014;00:00:00;48.150773;-4.464503;2;2;Dauphin de Risso;A;non;;0;0;0;Base de donnees;Inconnu;GECC
+6398;oui;10/07/2014;00:00:00;48.140286;-4.449601;2;2;Dauphin de Risso;A;non;;2;0;0;Base de donnees;Inconnu;GECC
+6399;oui;11/07/2014;00:00:00;48.136752;-4.406917;2;2;Dauphin de Risso;A;non;;0;0;0;Base de donnees;Inconnu;GECC
+6400;oui;11/07/2014;00:00:00;48.17374;-4.462116;2;2;Dauphin de Risso;A;non;;4;0;0;Base de donnees;Inconnu;GECC
+6402;oui;12/07/2014;00:00:00;48.158845;-4.383904;2;2;Dauphin de Risso;A;non;;6;0;0;Base de donnees;Inconnu;GECC
+6403;oui;13/07/2014;00:00:00;48.179264;-4.452589;2;2;Dauphin de Risso;A;non;;6;0;0;Base de donnees;Inconnu;GECC
+6404;oui;14/07/2014;00:00:00;48.281365;-4.63651;0;2;Phoque gris;A;non;;1;0;0;Youtube;Inconnu;GECC
+6405;oui;14/07/2014;00:00:00;48.129993;-4.518712;2;2;Dauphin de Risso;A;non;;8;0;0;Base de donnees;Inconnu;GECC
+6407;oui;15/07/2014;00:00:00;48.116871;-4.46606;2;2;Dauphin de Risso;A;non;;8;0;0;Base de donnees;Inconnu;GECC
+6417;oui;24/07/2014;00:00:00;48.576568;-4.711184;2;2;Grand dauphin;A;non;;0;0;0;Base de donnees;Inconnu;GECC
+6447;oui;06/08/2014;12:20:00;48.109575;-4.327872;2;1;Grand dauphin;A;oui;Georges;1;0;0;Presse;Inconnu;GECC
+6448;oui;06/08/2014;00:00:00;48.101822;-4.309889;2;1;Grand dauphin;A;oui;Georges;1;0;0;Base de donnees;Inconnu;GECC
+6452;oui;08/08/2014;00:00:00;48.388948;-4.855931;2;2;Grand dauphin;A;non;;0;10;20;Facebook;Inconnu;GECC
+6477;oui;23/08/2014;00:00:00;48.477611;-5.088042;1;1;Dauphin commun;A;non;;50;0;0;Email;Inconnu;GECC
+6491;oui;04/09/2014;00:00:00;48.041918;-4.749707;2;2;Dauphin commun;A;non;;0;20;30;Base de donnees;Inconnu;GECC
+6497;oui;07/09/2014;00:00:00;48.446615;-5.143958;2;2;Dauphin commun;A;non;;0;0;0;Youtube;Inconnu;GECC
+6502;oui;13/09/2014;12:30:00;48.348369;-4.849409;2;2;Grand dauphin;A;non;;0;30;40;Base de donnees;Inconnu;GECC
+6506;oui;15/09/2014;00:00:00;48.358617;-4.787404;2;2;Grand dauphin;A;non;;0;0;0;Base de donnees;Inconnu;GECC
+6512;oui;18/09/2014;00:00:00;48.22843;-4.492729;2;2;Dauphin commun;A;non;;0;0;0;Youtube;Inconnu;GECC
+6524;oui;27/09/2014;00:00:00;48.36122;-4.792628;2;1;Grand dauphin;A;non;;0;12;0;Formulaire en ligne;Inconnu;GECC
+6532;oui;04/10/2014;00:00:00;48.388982;-4.959103;2;2;Phoque gris;A;non;;1;0;0;Base de donnees;Inconnu;GECC
+6533;oui;04/10/2014;00:00:00;48.359192;-4.810209;2;2;Grand dauphin;A;non;;2;0;0;Base de donnees;Inconnu;GECC
+6536;oui;05/10/2014;00:00:00;48.038017;-4.839679;2;1;Grand dauphin;A;non;;0;1;0;Formulaire en ligne;Inconnu;GECC
+6537;oui;05/10/2014;00:00:00;48.677079;-4.318048;2;1;Dauphin commun;A;non;;0;2;0;Formulaire en ligne;Inconnu;GECC
+6563;oui;12/09/2014;11:00:00;48.343485;-4.832954;1;2;Grand dauphin;A;non;;0;30;40;Application mobile;Particulier;Aucun
+6571;oui;12/09/2014;11:00:00;48.343485;-4.832954;1;3;Grand dauphin;A;non;;0;30;40;Application mobile;Association;GECC
+6609;oui;02/01/2015;13:00:00;48.41553;-4.799995;2;1;Grand dauphin;A;non;0;0;3;10;Email;Particulier;Aucun
+6611;oui;19/03/2015;17:00:00;48.379271;-4.49145;2;1;Phoque gris;A;non;0;1;0;0;Telephone;Naturaliste;Bretagne Vivante
+6616;oui;12/09/2014;11:00:00;48.353968;-4.815102;1;2;Grand dauphin;A;non;0;0;30;40;Telephone;Particulier;Aucun
+6619;oui;11/10/2012;13:00:00;48.486178;-5.068216;2;1;Dauphin commun;A;non;0;0;10;12;Formulaire en ligne;Naturaliste;GECC
+6620;oui;16/10/2012;13:00:00;48.482765;-5.068731;2;1;Dauphin commun;A;non;0;0;10;20;Formulaire en ligne;Naturaliste;GECC
+6621;oui;17/10/2012;13:00:00;48.483902;-5.066671;2;1;Dauphin commun;A;non;0;0;15;20;Formulaire en ligne;Naturaliste;GECC
+6622;oui;18/10/2012;14:00:00;48.48578;-5.073452;2;1;Dauphin commun;A;non;0;250;0;0;Formulaire en ligne;Naturaliste;GECC
+6623;oui;19/10/2012;13:00:00;48.480034;-5.076799;2;1;Marsouin commun;A;non;0;0;5;7;Formulaire en ligne;Naturaliste;GECC
+6624;oui;19/10/2012;14:00:00;48.480119;-5.076842;2;1;Dauphin commun;A;non;0;175;0;0;Formulaire en ligne;Naturaliste;GECC
+6654;oui;04/04/2015;16:00:00;48.272797;-4.616146;0;2;Phoque gris;B;non;0;1;0;0;Blog;Inconnu;GECC
+6723;oui;19/05/2015;18:40:00;48.673336;-4.311576;2;1;Phoque veau-marin;A;non;0;2;0;0;Telephone;Promeneur;Aucun
+6735;oui;23/05/2015;16:00:00;48.34798;-4.583372;1;1;Phoque gris;A;non;0;1;0;0;Blog;Plaisancier;Aucun
+6736;oui;29/11/2014;16:00:00;48.393849;-4.953278;1;1;Phoque gris;A;non;0;1;0;0;Email;Plaisancier;Aucun
+6741;oui;27/05/2015;12:10:00;48.310601;-5.002899;2;2;Marsouin commun;A;non;0;2;0;0;Email;Club nautique;Aucun
+6742;oui;23/05/2015;16:00:00;48.497156;-5.097742;2;2;Petit rorqual;A;non;0;1;0;0;Email;Inconnu;GECC
+6752;oui;08/06/2015;16:00:00;48.205742;-4.451802;1;2;Phoque gris;A;non;0;1;0;0;Email;Club nautique;Aucun
+6758;oui;12/06/2015;13:00:00;48.478611;-5.081434;2;2;Marsouin commun;A;non;0;1;0;0;Email;Inconnu;GECC
+6759;oui;12/06/2015;14:30:00;48.477786;-5.100253;2;2;Marsouin commun;A;non;0;1;0;0;Email;Inconnu;GECC
+6773;oui;20/04/2015;12:55:00;48.337483;-4.6147;2;1;Phoque gris;B;non;0;1;0;0;Blog;Inconnu;GECC
+6822;oui;07/07/2015;09:55:00;48.360067;-4.78527;2;2;Grand dauphin;A;non;0;2;0;0;Blog;Plaisancier;Aucun
+6823;oui;07/07/2015;11:30:00;48.469214;-5.05499;2;2;Grand dauphin;A;oui;randy;1;0;0;Blog;Plaisancier;Aucun
+6831;oui;10/07/2015;10:50:00;48.431934;-4.974575;2;2;Dauphin commun;A;non;0;0;4;5;Blog;Plaisancier;Aucun
+6837;oui;14/07/2015;09:00:00;48.353592;-4.781351;2;1;Phoque gris;A;non;0;1;0;0;Blog;Particulier;Aucun
+6838;oui;14/07/2015;13:25:00;48.482932;-5.072191;2;1;Phoque gris;A;non;0;4;0;0;Blog;Plaisancier;Aucun
+6840;oui;16/07/2015;11:00:00;48.218904;-4.466801;2;2;Dauphin de Risso;A;non;0;7;0;0;Blog;Particulier;Aucun
+6841;oui;15/07/2015;14:35:00;48.225616;-4.498816;2;2;Dauphin de Risso;A;non;0;8;0;0;Email;Club nautique;Aucun
+6844;oui;16/07/2015;10:30:00;48.229476;-4.468346;2;2;Dauphin de Risso;A;non;0;5;0;0;Telephone;Club nautique;Aucun
+6845;oui;15/07/2015;10:00:00;48.225244;-4.488001;2;2;Dauphin de Risso;A;non;0;3;0;0;Telephone;Club nautique;Aucun
+6859;oui;22/07/2015;10:25:00;48.403081;-4.955993;2;2;Phoque gris;A;non;0;1;0;0;Blog;Plaisancier;Aucun
+6871;oui;25/07/2015;09:31:00;48.365374;-4.820251;2;2;Grand dauphin;A;non;0;2;0;0;Email;Plaisancier;Aucun
+6920;oui;09/08/2015;12:45:00;48.417809;-5.025902;2;2;Dauphin commun;A;non;;0;10;15;Application mobile;Particulier;Aucun
+6931;oui;13/08/2015;09:50:00;48.36037;-4.790146;1;2;Petit rorqual;A;non;0;1;1;2;Blog;Plaisancier;Aucun
+6932;oui;13/08/2015;09:50:00;48.36037;-4.790146;1;2;Phoque gris;A;non;0;1;0;0;Blog;Plaisancier;Aucun
+6953;oui;31/07/2015;10:00:00;48.36104;-4.797077;2;2;Grand dauphin;A;non;0;1;0;0;Email;Plaisancier;Aucun
+6954;oui;31/07/2015;15:00:00;48.457299;-5.134188;2;2;Phoque gris;A;non;0;3;0;0;Email;Plaisancier;Aucun
+6955;oui;17/08/2015;12:19:00;48.282758;-4.636107;1;2;Dauphin commun;A;non;;4;1;2;Application mobile;Plaisancier;Aucun
+6978;oui;21/08/2015;11:45:00;48.478995;-5.072937;2;1;Phoque gris;A;non;0;1;0;0;Blog;Plaisancier;Aucun
+7020;oui;16/08/2015;10:00:00;48.323273;-4.540873;2;2;Dauphin commun;A;non;0;10;0;0;Facebook;Plaisancier;Aucun
+7026;oui;08/09/2015;11:00:00;48.585916;-4.853466;1;2;Dauphin commun;A;non;0;1;10;20;Telephone;Association;GECC
+7100;oui;01/10/2015;11:10:00;48.647428;-4.801025;1;2;Dauphin commun;A;non;0;1;30;35;Formulaire en ligne;Inconnu;Aucun
+7101;oui;01/10/2015;12:10:00;48.91528;-4.702148;1;2;Dauphin commun;A;non;0;1;5;10;Formulaire en ligne;Inconnu;Aucun
+7102;oui;01/10/2015;10:05:00;48.285021;-4.858704;1;2;Grand dauphin;A;non;0;1;1;2;Formulaire en ligne;Inconnu;Aucun
+7112;oui;18/10/2015;15:40:00;48.345625;-4.891159;1;2;Grand dauphin;A;non;;20;1;2;Application mobile;Association;GECC
+7141;oui;15/11/2015;17:00:00;48.671329;-4.312633;2;1;Phoque gris;B;non;0;1;2;3;Telephone;Inconnu;Aucun
+7146;oui;22/10/2015;11:00:00;48.684167;-5.064167;1;2;Dauphin commun;A;non;0;15;1;2;Email;Naturaliste;Agence des Aires Marines Protegees
+7148;oui;21/10/2015;23:00:00;48.469357;-5.049873;1;2;Grand dauphin;A;non;0;1;1;2;Email;Naturaliste;Agence des Aires Marines Protegees
+7149;oui;10/10/2015;15:20:00;48.468701;-5.055106;2;1;Grand dauphin;A;non;;1;1;2;Application mobile;Promeneur;Aucun
+7150;oui;11/10/2015;11:05:00;48.451873;-5.111664;2;1;Phoque gris;A;non;;1;1;2;Application mobile;Promeneur;Aucun
+7151;oui;16/10/2015;15:30:00;48.440136;-5.111834;2;1;Phoque gris;A;non;;2;1;2;Application mobile;Promeneur;Aucun
+7152;oui;17/10/2015;17:51:00;48.454539;-5.096292;2;1;Grand dauphin;A;oui;;1;0;0;Application mobile;Promeneur;Aucun
+7153;oui;26/10/2015;15:08:00;48.490271;-5.072493;2;1;Dauphin commun;A;non;;4;1;2;Application mobile;Promeneur;Aucun
+7154;oui;26/10/2015;15:10:00;48.483549;-5.07639;1;1;Phoque gris;A;non;;1;1;2;Application mobile;Promeneur;Aucun
+7187;oui;27/08/2015;16:56:00;48.299;-4.327;1;2;Dauphin commun;B;non;0;1;2;6;Formulaire en ligne;Inconnu;Aucun
+7202;oui;20/04/2013;13:20:00;48.560704;-4.719969;1;2;Phoque gris;A;non;0;1;1;2;Youtube;Inconnu;Aucun
+7203;oui;16/11/2012;11:30:00;48.529338;-4.767315;2;2;Phoque gris;A;non;0;1;1;2;Blog;Inconnu;Aucun
+7208;oui;16/01/2016;16:30:00;48.29813;-4.458026;2;2;Phoque gris;A;non;;1;1;2;Application mobile;Naturaliste;Bretagne Vivante
+7223;oui;07/02/2016;11:19:00;48.326072;-4.362847;1;1;Phoque gris;A;non;;1;1;2;Application mobile;Naturaliste;Bretagne Vivante
+7229;oui;19/02/2016;17:15:00;48.47349;-5.09494;1;1;Phoque gris;A;non;0;1;1;2;Formulaire en ligne;Plaisancier;Aucun
+7230;oui;18/02/2016;10:30:00;48.425555;-4.957506;1;2;Grand dauphin;A;non;0;1;1;2;Formulaire en ligne;Plaisancier;Aucun
+7276;oui;17/03/2016;12:40:00;47.94597;-4.411566;1;1;Phoque gris;A;non;0;1;1;2;Formulaire en ligne;Inconnu;Aucun
+7285;oui;20/03/2016;11:45:00;48.321169;-4.453626;1;1;Grand dauphin;B;oui;randy;1;0;0;Application mobile;Particulier;Aucun
+7286;oui;08/03/2016;18:45:00;48.369369;-4.769056;1;1;Phoque gris;B;non;;2;1;2;Application mobile;Particulier;Aucun
+7290;oui;19/03/2016;15:29:00;48.01499;-4.603627;1;1;Phoque veau-marin;A;non;0;1;1;2;Formulaire en ligne;Inconnu;Aucun
+7295;oui;25/03/2016;08:35:00;48.108513;-4.332047;1;1;Dauphin commun;A;non;;1;6;10;Application mobile;Particulier;Aucun
+7302;oui;27/03/2016;17:15:00;48.366514;-4.783077;1;1;Phoque gris;A;non;0;1;1;2;Formulaire en ligne;Plaisancier;Aucun
+7317;oui;06/04/2016;09:43:00;48.33669;-4.613665;2;1;Phoque gris;A;non;0;2;1;2;Formulaire en ligne;Inconnu;Aucun
+7318;oui;13/04/2016;16:00:00;48.212778;-4.459419;1;2;Dauphin commun;A;non;0;1;8;10;Formulaire en ligne;Inconnu;GECC
+7363;oui;10/05/2016;21:00:00;47.930549;-4.131871;1;1;Petit rorqual;B;non;0;1;1;2;Formulaire en ligne;Inconnu;Aucun
+7366;oui;12/05/2016;09:19:00;48.352599;-4.519436;2;2;Dauphin commun;A;non;0;1;5;10;Facebook;Plaisancier;Aucun
+7386;oui;04/06/2016;13:30:00;48.360059;-4.486679;1;1;Marsouin commun;B;non;;3;1;2;Application mobile;Particulier;Aucun
+7389;oui;05/06/2016;11:14:00;48.618385;-4.574625;1;2;Dauphin commun;A;non;0;1;1;20;Formulaire en ligne;Inconnu;Aucun
+7397;oui;04/06/2016;10:25:00;48.006922;-4.618646;1;2;Orque;B;non;0;1;1;2;Formulaire en ligne;Inconnu;Aucun
+7417;oui;04/06/2016;11:00:00;48.169749;-4.413757;1;2;Dauphin commun;A;non;0;8;1;2;Formulaire en ligne;Inconnu;Aucun
+7421;oui;12/06/2016;11:20:00;48.713619;-4.11217;1;2;Dauphin commun;A;non;0;5;1;2;Formulaire en ligne;Particulier;Aucun
+7427;oui;24/06/2016;16:30:00;48.416442;-4.800821;1;2;Grand dauphin;A;non;0;1;7;10;Formulaire en ligne;Inconnu;Aucun
+7438;oui;28/06/2016;12:00:00;48.470247;-5.049397;3;2;Grand dauphin;A;non;0;1;1;2;Email;Inconnu;Aucun
+7441;oui;04/07/2016;12:28:00;48.042857;-4.896671;1;1;Grand dauphin;A;non;;1;1;2;Application mobile;Particulier;Aucun
+7451;oui;07/07/2016;10:00:00;48.366856;-4.804106;1;2;Dauphin commun;A;non;0;6;1;2;Formulaire en ligne;Plaisancier;Aucun
+7452;oui;07/07/2016;11:00:00;48.442867;-4.999735;1;2;Dauphin commun;A;non;0;5;1;2;Formulaire en ligne;Plaisancier;Aucun
+7458;oui;11/07/2016;12:35:00;48.470624;-5.107095;1;1;Phoque gris;A;non;0;2;1;2;Formulaire en ligne;Plaisancier;Aucun
+7462;oui;15/07/2016;17:10:00;48.45949;-5.011751;1;1;Dauphin commun;B;non;0;1;3;4;Formulaire en ligne;Plaisancier;Aucun
+7468;oui;19/07/2016;10:30:00;48.160556;-4.555556;1;2;Dauphin de Risso;A;non;0;2;1;2;Formulaire en ligne;Inconnu;Aucun
+7470;oui;21/07/2016;09:09:00;48.586146;-4.620309;1;2;Grand dauphin;A;non;0;3;1;2;Formulaire en ligne;Inconnu;Aucun
+7473;oui;20/07/2016;10:35:00;48.409377;-4.854509;1;2;Dauphin commun;A;non;0;3;1;2;Formulaire en ligne;Plaisancier;Aucun
+7474;oui;22/07/2016;10:15:00;48.364917;-4.822237;1;2;Grand dauphin;A;non;0;4;1;2;Formulaire en ligne;Plaisancier;Aucun
+7475;oui;22/07/2016;17:15:00;48.466548;-5.019648;1;2;Dauphin commun;A;non;0;4;1;2;Formulaire en ligne;Plaisancier;Aucun
+7476;oui;21/07/2016;11:22:00;48.401172;-4.915486;1;2;Grand dauphin;B;non;0;5;1;2;Formulaire en ligne;Plaisancier;Aucun
+7477;oui;22/07/2016;19:45:00;48.469183;-5.055328;1;1;Grand dauphin;A;oui;randy;1;0;0;Application mobile;Particulier;Aucun
+7478;oui;23/07/2016;09:05:00;48.353283;-4.818117;1;2;Grand dauphin;A;non;0;1;10;12;Formulaire en ligne;Plaisancier;Aucun
+7479;oui;23/07/2016;09:30:00;48.407554;-4.911158;1;2;Grand dauphin;A;non;0;8;1;2;Formulaire en ligne;Plaisancier;Aucun
+7480;oui;23/07/2016;09:36:00;48.415758;-4.939653;1;2;Grand dauphin;A;non;0;5;1;2;Formulaire en ligne;Plaisancier;Aucun
+7489;oui;23/07/2016;17:56:00;48.446579;-5.001965;1;2;Dauphin commun;B;non;0;2;1;2;Formulaire en ligne;Plaisancier;Aucun
+7490;oui;25/07/2016;18:40:00;48.359146;-4.830304;1;2;Grand dauphin;A;non;0;8;1;2;Formulaire en ligne;Plaisancier;Aucun
+7491;oui;25/07/2016;10:20:00;48.405206;-4.905835;1;2;Grand dauphin;A;non;0;1;2;3;Formulaire en ligne;Plaisancier;Aucun
+7494;oui;26/07/2016;09:55:00;48.3595;-4.788699;1;2;Grand dauphin;A;non;0;1;1;2;Formulaire en ligne;Plaisancier;Aucun
+7495;oui;24/07/2016;09:15:00;48.48961;-4.93309;1;2;Dauphin commun;A;non;0;1;1;5;Formulaire en ligne;Inconnu;Aucun
+7496;oui;23/07/2016;10:57:00;48.276796;-4.284325;1;1;Dauphin commun;A;non;0;1;7;8;Formulaire en ligne;Inconnu;Aucun
+7505;oui;30/07/2016;16:00:00;48.483412;-5.070744;1;1;Grand dauphin;A;non;0;1;8;11;Formulaire en ligne;Inconnu;GECC
+7506;oui;30/07/2016;17:00:00;48.484841;-5.068455;1;1;Marsouin commun;A;non;0;1;1;2;Formulaire en ligne;Inconnu;GECC
+7507;oui;31/07/2016;20:00:00;48.359101;-4.797174;1;1;Phoque gris;A;non;0;1;1;2;Formulaire en ligne;Inconnu;GECC
+7508;oui;31/07/2016;11:00:00;48.437529;-5.117345;1;1;Phoque gris;A;non;0;3;1;2;Formulaire en ligne;Inconnu;GECC
+7511;oui;24/07/2016;09:15:00;48.48961;-4.93309;1;2;Petit rorqual;B;non;0;1;1;2;Formulaire en ligne;Inconnu;Aucun
+7512;oui;26/07/2016;09:55:00;48.360141;-4.786365;1;2;Grand dauphin;A;non;0;1;1;2;Formulaire en ligne;Plaisancier;Aucun
+7513;oui;27/07/2016;17:20:00;48.461767;-5.01711;1;2;Dauphin commun;A;non;0;4;1;2;Formulaire en ligne;Plaisancier;Aucun
+7514;oui;02/08/2016;09:40:00;48.3595;-4.780288;1;1;Grand dauphin;A;oui;Randy;1;0;0;Formulaire en ligne;Plaisancier;Aucun
+7515;oui;02/08/2016;13:35:00;48.396984;-4.949546;1;1;Phoque gris;A;non;0;1;1;2;Formulaire en ligne;Plaisancier;Aucun
+7516;oui;03/08/2016;10:14:00;48.375409;-4.83506;1;2;Grand dauphin;A;non;0;1;3;4;Formulaire en ligne;Plaisancier;Aucun
+7517;oui;03/08/2016;11:05:00;48.468369;-4.995197;1;2;Dauphin commun;A;non;0;1;5;6;Formulaire en ligne;Plaisancier;Aucun
+7520;oui;29/07/2016;13:15:00;48.46038;-5.12969;1;1;Phoque gris;A;non;0;2;1;2;Formulaire en ligne;Plaisancier;Aucun
+7523;oui;03/08/2016;16:35:00;48.418264;-4.908411;1;2;Dauphin commun;A;non;0;2;1;2;Formulaire en ligne;Plaisancier;Aucun
+7524;oui;05/08/2016;10:50:00;48.426239;-4.963895;1;2;Dauphin commun;A;non;0;5;1;2;Formulaire en ligne;Plaisancier;Aucun
+7525;oui;06/08/2016;09:00:00;48.342103;-4.806787;1;2;Grand dauphin;A;non;0;1;10;12;Formulaire en ligne;Plaisancier;Aucun
+7526;oui;06/08/2016;09:35:00;48.412568;-4.918711;1;2;Phoque gris;A;non;0;1;1;2;Formulaire en ligne;Plaisancier;Aucun
+7527;oui;06/08/2016;09:45:00;48.445372;-4.984285;1;2;Dauphin commun;A;non;0;3;1;2;Formulaire en ligne;Plaisancier;Aucun
+7528;oui;06/08/2016;18:55:00;48.282736;-4.776157;1;2;Grand dauphin;A;non;0;1;8;10;Formulaire en ligne;Plaisancier;Aucun
+7536;oui;10/08/2016;19:30:00;48.378145;-4.469055;1;1;Grand dauphin;A;non;0;1;1;2;Formulaire en ligne;Inconnu;Aucun
+7538;oui;08/08/2016;09:55:00;48.37062;-4.824297;1;2;Grand dauphin;A;non;0;1;2;3;Formulaire en ligne;Plaisancier;Aucun
+7539;oui;08/08/2016;11:05:00;48.45949;-5.018483;1;2;Dauphin commun;A;non;0;6;1;2;Formulaire en ligne;Plaisancier;Aucun
+7540;oui;08/08/2016;13:37:00;48.479948;-5.072184;1;1;Phoque gris;A;non;0;1;1;2;Formulaire en ligne;Plaisancier;Aucun
+7541;oui;08/08/2016;16:10:00;48.44264;-5.006258;1;2;Dauphin commun;A;non;0;2;1;2;Formulaire en ligne;Plaisancier;Aucun
+7542;oui;08/08/2016;16:40:00;48.376777;-4.867481;1;2;Dauphin commun;A;non;0;4;1;2;Formulaire en ligne;Plaisancier;Aucun
+7543;oui;09/08/2016;09:56:00;48.36104;-4.801503;1;2;Grand dauphin;A;non;0;4;1;2;Formulaire en ligne;Plaisancier;Aucun
+7544;oui;09/08/2016;18:17:00;48.369479;-4.791203;1;1;Grand dauphin;A;non;0;2;1;2;Formulaire en ligne;Plaisancier;Aucun
+7545;oui;11/08/2016;11:06:00;48.458807;-5.014498;1;2;Dauphin commun;A;non;0;12;1;2;Formulaire en ligne;Plaisancier;Aucun
+7546;oui;12/08/2016;07:04:00;48.436874;-5.116127;1;1;Phoque gris;A;non;0;1;1;2;Formulaire en ligne;Plaisancier;Aucun
+7551;oui;16/08/2016;17:50:00;48.40932;-4.941521;1;2;Phoque gris;A;non;0;2;1;2;Formulaire en ligne;Plaisancier;Aucun
+7552;oui;16/08/2016;18:15:00;48.36697;-4.816401;1;2;Phoque gris;A;non;0;1;1;2;Formulaire en ligne;Plaisancier;Aucun
+7555;oui;17/08/2016;08:45:00;48.3592;-4.783104;1;1;Phoque gris;A;non;0;1;1;2;Formulaire en ligne;Inconnu;Aucun
+7556;oui;17/08/2016;09:00:00;48.356933;-4.7853;1;1;Grand dauphin;A;non;0;1;15;20;Formulaire en ligne;Inconnu;Aucun
+7557;oui;17/08/2016;05:35:00;48.396111;-4.898056;1;2;Phoque gris;A;non;0;3;1;2;Formulaire en ligne;Inconnu;Aucun
+7558;oui;13/08/2016;09:45:00;48.448697;-4.931225;1;2;Dauphin commun;A;non;0;1;2;4;Formulaire en ligne;Inconnu;Aucun
+7559;oui;13/08/2016;19:20:00;48.283239;-4.597402;1;2;Dauphin commun;A;non;0;1;15;20;Formulaire en ligne;Inconnu;Aucun
+7560;oui;15/08/2016;17:30:00;48.334765;-4.615486;1;1;Grand dauphin;A;non;0;1;1;2;Formulaire en ligne;Inconnu;Aucun
+7561;oui;12/08/2016;10:45:00;48.457168;-4.986156;1;1;Dauphin commun;A;non;0;1;12;15;Formulaire en ligne;Inconnu;Aucun
+7562;oui;12/08/2016;12:15:00;48.447815;-5.140321;1;1;Phoque gris;A;non;0;1;1;2;Formulaire en ligne;Inconnu;Aucun
+7563;oui;17/08/2016;10:00:00;48.360686;-4.798761;1;1;Grand dauphin;A;non;0;1;4;6;Formulaire en ligne;Inconnu;Aucun
+7564;oui;04/08/2016;14:00:00;48.376367;-4.949618;1;1;Phoque gris;A;non;0;1;1;2;Formulaire en ligne;Inconnu;Aucun
+7566;oui;18/08/2016;19:20:00;48.234578;-4.571074;1;1;Phoque gris;B;non;0;1;1;2;Formulaire en ligne;Inconnu;Aucun
+7567;oui;18/08/2016;18:15:00;48.359443;-4.800645;1;2;Grand dauphin;A;non;0;1;20;25;Formulaire en ligne;Plaisancier;Aucun
+7568;oui;19/08/2016;11:15:00;48.462336;-5.02123;1;2;Dauphin commun;A;non;0;3;1;2;Formulaire en ligne;Plaisancier;Aucun
+7572;oui;20/08/2016;12:50:00;48.446061;-5.138452;1;1;Dauphin commun;A;non;0;1;1;2;Formulaire en ligne;Inconnu;Aucun
+7578;oui;07/08/2016;12:52:00;48.482594;-5.070653;1;1;Phoque gris;A;non;0;3;1;2;Formulaire en ligne;Inconnu;Aucun
+7580;oui;24/08/2016;10:55:00;48.452204;-5.002768;1;2;Dauphin commun;A;non;0;1;6;10;Formulaire en ligne;Inconnu;Aucun
+7581;oui;24/08/2016;10:00:00;48.372444;-4.824162;1;2;Grand dauphin;A;non;0;12;1;2;Formulaire en ligne;Plaisancier;Aucun
+7582;oui;24/08/2016;10:55:00;48.455255;-5.008604;1;2;Dauphin commun;A;non;0;1;6;10;Formulaire en ligne;Inconnu;Aucun
+7585;oui;21/08/2016;17:00:00;48.743059;-4.108018;1;2;Dauphin commun;B;non;0;3;1;2;Email;Inconnu;Aucun
+7597;oui;26/08/2016;09:55:00;48.363549;-4.809056;1;2;Grand dauphin;A;non;0;2;1;2;Formulaire en ligne;Plaisancier;Aucun
+7598;oui;26/08/2016;10:55:00;48.4571;-5.01196;1;2;Dauphin commun;A;non;0;6;1;2;Formulaire en ligne;Plaisancier;Aucun
+7599;oui;26/08/2016;20:10:00;48.462791;-5.015908;1;2;Dauphin commun;A;non;0;2;1;2;Formulaire en ligne;Plaisancier;Aucun
+7601;oui;29/08/2016;12:25:00;48.466109;-5.10812;1;1;Phoque gris;A;non;0;1;1;2;Formulaire en ligne;Plaisancier;Aucun
+7607;oui;29/07/2016;16:00:00;48.222385;-4.465525;1;2;Dauphin bleu et blanc;A;non;0;1;1;15;Formulaire en ligne;Inconnu;Aucun
+7608;oui;30/07/2016;15:00:00;48.214379;-4.444239;1;2;Phoque gris;A;non;0;1;1;2;Formulaire en ligne;Inconnu;Aucun
+7609;oui;05/08/2016;11:25:00;48.213578;-4.432431;1;2;Dauphin de Risso;A;non;0;1;1;7;Formulaire en ligne;Inconnu;Aucun
+7610;oui;05/08/2016;15:20:00;48.214608;-4.430162;1;2;Dauphin de Risso;A;non;0;1;1;7;Formulaire en ligne;Inconnu;Aucun
+7618;oui;30/08/2016;16:02:00;48.369251;-4.774515;1;2;Grand dauphin;A;non;0;1;5;6;Formulaire en ligne;Inconnu;Aucun
+7619;oui;29/08/2016;18:10:00;48.364233;-4.816744;1;2;Dauphin commun;A;non;0;4;1;2;Formulaire en ligne;Plaisancier;Aucun
+7628;oui;25/08/2016;09:55:00;48.36031;-4.793783;1;2;Grand dauphin;A;non;0;1;2;3;Formulaire en ligne;Inconnu;Aucun
+7629;oui;25/08/2016;18:00:00;48.387568;-4.891818;1;2;Grand dauphin;A;non;0;2;1;2;Formulaire en ligne;Inconnu;Aucun
+7630;oui;26/07/2016;13:10:00;48.449705;-5.136437;1;1;Phoque gris;A;non;0;1;1;2;Formulaire en ligne;Inconnu;Aucun
+7631;oui;26/08/2016;19:00:00;48.476128;-5.049712;1;1;Phoque gris;A;non;0;1;1;2;Formulaire en ligne;Inconnu;Aucun
+7632;oui;27/08/2016;18:50:00;48.353814;-4.782525;1;1;Phoque gris;A;non;0;1;1;2;Formulaire en ligne;Inconnu;Aucun
+7633;oui;31/08/2016;19:40:00;48.410622;-4.79134;1;1;Phoque gris;A;non;0;1;1;2;Formulaire en ligne;Inconnu;Aucun
+7722;oui;31/05/2015;17:00:00;48.13396;-4.276258;2;1;Phoque gris;A;non;0;1;1;2;Email;Inconnu;Aucun
+7723;oui;12/06/2015;12:30:00;48.275;-4.516667;1;2;Dauphin de Risso;A;non;0;5;1;2;Email;Inconnu;Aucun
+7724;oui;18/06/2015;13:00:00;48.093611;-4.959444;1;2;Marsouin commun;A;non;0;2;1;2;Email;Inconnu;Aucun
+7725;oui;20/06/2015;12:30:00;48.101814;-4.337199;2;2;Dauphin de Risso;A;non;0;15;1;2;Email;Inconnu;Aucun
+7726;oui;17/08/2015;11:00:00;48.038151;-4.860774;2;2;Dauphin commun;A;non;0;10;1;2;Email;Inconnu;Aucun
+7727;oui;18/08/2015;11:00:00;48.040906;-4.857341;3;2;Dauphin commun;A;non;0;50;1;2;Email;Inconnu;Aucun
+7728;oui;08/10/2015;11:15:00;47.989922;-4.845142;1;2;Dauphin commun;A;non;0;10;1;2;Email;Inconnu;Aucun
+7729;oui;08/10/2015;12:05:00;48.114767;-4.856129;1;2;Dauphin commun;A;non;0;13;1;2;Email;Inconnu;Aucun
+7730;oui;08/10/2015;14:00:00;48.114767;-5.053883;1;2;Dauphin commun;A;non;0;10;1;2;Email;Inconnu;Aucun
+7731;oui;16/10/2015;12:30:00;48.213889;-4.534444;1;2;Marsouin commun;A;non;0;15;1;2;Email;Inconnu;Aucun
