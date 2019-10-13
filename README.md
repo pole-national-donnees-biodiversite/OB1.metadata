@@ -418,6 +418,48 @@ Output
   HyperfocalDistance LightValue
 1           89.86143   14.64386
 ```
+- videos
+```
+library("exiftoolr")
+mov <- exif_read("PNMR_AFB_K7_N01_Seq_27_Bateau_peche_ligneur.mov")
+```
+Output:
+```
+                                       SourceFile ExifToolVersion
+1 PNMR_AFB_K7_N01_Seq_27_Bateau_peche_ligneur.mov            11.7
+                                         FileName Directory FileSize            FileModifyDate
+1 PNMR_AFB_K7_N01_Seq_27_Bateau_peche_ligneur.mov         . 28556655 2019:10:12 17:14:00+02:00
+             FileAccessDate            FileCreateDate FilePermissions FileType FileTypeExtension
+1 2019:10:13 11:46:00+02:00 2019:10:12 17:25:40+02:00             666      MOV               MOV
+         MIMEType MajorBrand MinorVersion CompatibleBrands MovieDataSize MovieDataOffset
+1 video/quicktime       qt       2005.3.0             qt        28540880              48
+  MovieHeaderVersion          CreateDate          ModifyDate TimeScale Duration PreferredRate
+1                  0 2012:04:16 09:26:01 2012:04:16 09:26:01      2500     7.88             1
+  PreferredVolume PreviewTime PreviewDuration PosterTime SelectionTime SelectionDuration
+1               1           0               0          0             0                 0
+  CurrentTime NextTrackID TrackHeaderVersion     TrackCreateDate     TrackModifyDate TrackID
+1           0           5                  0 2012:04:16 09:26:01 2012:04:16 09:26:01       1
+  TrackDuration TrackLayer TrackVolume ImageWidth ImageHeight CleanApertureDimensions
+1          7.88          0           0       1440        1080               1888 1062
+  ProductionApertureDimensions EncodedPixelsDimensions TimeCode GraphicsMode           OpColor
+1                    1920 1080               1440 1080        4           64 32768 32768 32768
+  CompressorID VendorID SourceImageWidth SourceImageHeight XResolution YResolution CompressorName
+1         hdv3     appl             1440              1080          72          72    HDV 1080i50
+  BitDepth VideoFrameRate                                            PartialSyncSamples Balance
+1       24             25 1 13 25 37 49 61 73 85 97 109 121 133 145 157 169 181 193 205       0
+  AudioFormat AudioChannels AudioBitsPerSample AudioSampleRate LayoutFlags   MatrixStructure
+1        sowt             1                 16           48000           0 1 0 0 0 1 0 0 0 1
+  MediaHeaderVersion     MediaCreateDate     MediaModifyDate MediaTimeScale MediaDuration
+1                  0 2012:04:16 09:26:01 2012:04:16 09:26:01           2500          8.64
+  GenMediaVersion GenFlags GenGraphicsMode        GenOpColor GenBalance TextFont TextFace TextSize
+1               0    0 0 0              64 32768 32768 32768          0       22        0       12
+  TextColor   BackgroundColor FontName HandlerClass HandlerVendorID
+1     0 0 0 65535 65535 65535  Courier         dhlr            appl
+                           HandlerDescription OtherFormat OtherName HandlerType
+1 base64:R2VzdGlvbm5haXJlIGTVYWxpYXMgQXBwbGU=        tmcd     001-B        mdta
+       ComAppleFinalcutstudioMediaUuid ImageSize Megapixels AvgBitrate Rotation
+1 3485E89D-EAAD-4E62-A851-69E35C408473 1440 1080     1.5552   28975513        0
+```
 - SIG data
 ```
 install.packages("rgdal")
@@ -440,6 +482,64 @@ y 44.0  48
 Slot "proj4string":
 CRS arguments:
  +proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0 
+```
+- geoTIFF data
+```
+install.packages("rgdal")
+library(rgdal)
+GDALinfo(file.choose())
+```
+Output
+```
+rows        6439 
+columns     2407 
+bands       1 
+lower left origin.x        -430971.5 
+lower left origin.y        6171234 
+res.x       1.917074 
+res.y       1.917074 
+ysign       -1 
+oblique.x   0 
+oblique.y   0 
+driver      GTiff 
+projection  +proj=merc +lon_0=0 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs 
+file        E:\L1\Océan Hackathon 11-13.10.2019\7095_3_gtw.tif 
+apparent band summary:
+  GDType hasNoDataValue NoDataValue blockSize1 blockSize2
+1   Byte          FALSE           0        128       2407
+apparent band statistics:
+  Bmin Bmax Bmean Bsd
+1    0  255    NA  NA
+Metadata:
+AREA_OR_POINT=Area 
+TIFFTAG_COPYRIGHT=SHOM 2017 
+TIFFTAG_RESOLUTIONUNIT=2 (pixels/inch) 
+TIFFTAG_XRESOLUTION=300 
+TIFFTAG_YRESOLUTION=300 
+```
+
+
+- fichiers netCDF :
+https://github.com/mdsumner/ncdf4
+```
+u <- "http://coastwatch.pfeg.noaa.gov/erddap/griddap/erdQSwind3day"
+nc <- ncdf4::nc_open(u)
+class(nc)
+#> [1] "ncdf4"
+## note that "ncdf" argument is required to trigger use of ncdf4
+r <- raster::raster(u, ncdf = TRUE, varname = "x_wind")
+print(r)
+#> class       : RasterLayer 
+#> band        : 1  (of  3774  bands)
+#> dimensions  : 1201, 2881, 3460081  (nrow, ncol, ncell)
+#> resolution  : 0.125, 0.125  (x, y)
+#> extent      : -0.0625, 360.0625, -75.0625, 75.0625  (xmin, xmax, ymin, ymax)
+#> coord. ref. : +proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0 
+#> data source : http://coastwatch.pfeg.noaa.gov/erddap/griddap/erdQSwind3day 
+#> names       : Zonal.Wind 
+#> z-value     : 932644800 
+#> zvar        : x_wind 
+#> level       : 1
 ```
 
 Helper for making maps of species occurrence data
