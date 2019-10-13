@@ -11,8 +11,8 @@ semantics <- function(input, output, session,
   
   # file navigation ----
   output$current_file <- renderUI({
-    req(rv$cur_file)
-    rv$cur_file
+    req(savevar$import$file)
+    HTML("<b>File:</b> ",savevar$import$file$name)
   })
   
   # fields annotation ----

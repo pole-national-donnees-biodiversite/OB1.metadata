@@ -10,11 +10,15 @@ toLoad <- c(
   "ontologyIndex",
   "mime",
   "datapackage.r",
-  "bioacoustics"
+  "bioacoustics",
+  "exiftoolr"
 )
 sapply(toLoad, function(lib){
-  if(!(lib %in% installed.packages()[,"Package"]))
+  if(!(lib %in% installed.packages()[,"Package"])){
     install.packages(lib)
+    if(lib == "exiftoolr")
+      install_exiftool()
+  }
 })
 library(shinydashboard)
 library(shinyjs)
