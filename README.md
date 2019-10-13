@@ -441,6 +441,41 @@ Slot "proj4string":
 CRS arguments:
  +proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0 
 ```
+- geoTIFF data
+```
+install.packages("rgdal")
+library(rgdal)
+GDALinfo(file.choose())
+```
+Output
+```
+rows        6439 
+columns     2407 
+bands       1 
+lower left origin.x        -430971.5 
+lower left origin.y        6171234 
+res.x       1.917074 
+res.y       1.917074 
+ysign       -1 
+oblique.x   0 
+oblique.y   0 
+driver      GTiff 
+projection  +proj=merc +lon_0=0 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs 
+file        E:\L1\Océan Hackathon 11-13.10.2019\7095_3_gtw.tif 
+apparent band summary:
+  GDType hasNoDataValue NoDataValue blockSize1 blockSize2
+1   Byte          FALSE           0        128       2407
+apparent band statistics:
+  Bmin Bmax Bmean Bsd
+1    0  255    NA  NA
+Metadata:
+AREA_OR_POINT=Area 
+TIFFTAG_COPYRIGHT=SHOM 2017 
+TIFFTAG_RESOLUTIONUNIT=2 (pixels/inch) 
+TIFFTAG_XRESOLUTION=300 
+TIFFTAG_YRESOLUTION=300 
+```
+
 
 Helper for making maps of species occurrence data
 - https://github.com/ropensci/mapr
