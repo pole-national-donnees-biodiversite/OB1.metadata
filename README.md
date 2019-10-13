@@ -39,6 +39,7 @@ ne semble que fonctionner avec des fichiers .csv
 créer une liste composée de sous-listes décrivant les métadonnées du fichier : path, profile, encoding, name, format, mediatype et schema. Dans la sous-liste "schema" sont distingués les "fields" du dataset (nom des headers), auxquels sont attribués un "name",un "type" et "format", et les missing values.
 
 - metadatar https://github.com/annakrystalli/metadatar 
+  - Apparently, not so "intelligent" than datapackage::infer as it seems there is no inference of min/max, format, attibute type...
 - taxonomyCleanr (A workflow and set of functions to clean your taxonomy data using R) https://github.com/EDIorg/taxonomyCleanr 
 - dataspice https://github.com/ropenscilabs/dataspice dont déjà des choses côté EML : https://github.com/ropenscilabs/dataspice/blob/master/R/eml_to_spice.R
 - dataCleanR (A collection of user friendly data cleaning functions - EDIorg/dataCleanr) https://github.com/EDIorg/dataCleanr/blob/master/README.md
