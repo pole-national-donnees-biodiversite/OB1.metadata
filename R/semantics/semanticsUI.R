@@ -1,7 +1,7 @@
 # semanticsUI.R
 
-source("semantics/semantics.R")
 source("semantics/semantics_functions.R")
+source("semantics/semantics.R")
 
 # UI
 semanticsUI <- function(id){
@@ -12,9 +12,7 @@ semanticsUI <- function(id){
       h1("Controlled vocabulary"),
       # file navigation
       fluidRow(
-        actionButton("file_prev", "Previous"),
-        uiOutput(ns("current_file")),
-        actionButton("file_next", "Next")
+        uiOutput(ns("current_file"))
       ),
       # fields annotation
       fluidRow(

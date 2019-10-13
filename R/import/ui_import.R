@@ -1,4 +1,6 @@
+# ui_import.R
 
+source("import/import_functions.R")
 source("import/server_import.R")
 
 ui_import <- function(id) {
@@ -7,17 +9,17 @@ ui_import <- function(id) {
   # basic look since ui.R is creating dashboard 
   fluidPage(
     fileInput(
-      inputId = ns("file1"), 
+      inputId = ns("file"), 
       label = "Choose CSV File",
       multiple = FALSE
-      ),
+    ),
+    tableOutput(ns("contents")),
     radioButtons(
       inputId = ns("sep"), 
       label = "Separator",
       choices = c(Comma = ",",
                   Semicolon = ";",
                   Tab = "\t"),
-      selected = ","),
-    tableOutput(ns("contents"))
+      selected = ",")
   )
 }

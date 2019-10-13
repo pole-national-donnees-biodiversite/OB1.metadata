@@ -2,25 +2,26 @@
 server_import <- function(input, output, session, savevar) {
   ns <- session$ns
   
-  print("out")
+  savevar$import <- reactiveValues()
   
-  # List the first level callModules here
+  # check file import
   output$contents <- renderTable({
-    print("in")
-
-    inFile <- input$file1
+    
+    inFile <- input$file
     
     if (is.null(inFile))
       return(NULL)
-
-      df <- read.csv(inFile$datapath,
-                     #header = input$header,
-                     sep = input$sep
-                     #quote = input$quote
-                     )
-      return(head(df))
+    
+    print(guess_type(inFile$datapath))
+    return(inFile$name)
     
   })
   
+  observe({
+    req(input)
+    savevar$import$file <- input$file
+  })
+  
+  # output
   return(savevar)
 }

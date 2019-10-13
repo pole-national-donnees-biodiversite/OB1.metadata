@@ -1,7 +1,7 @@
 # inferUI.R
 
-source("infer/infer.R")
 source("infer/infer_functions.R")
+source("infer/infer.R")
 
 # UI
 inferUI <- function(id){
@@ -9,7 +9,8 @@ inferUI <- function(id){
   
   return(
     fluidPage(
-      h1("Metadata inference")
+      h1("Metadata inference"),
+      uiOutput(ns("infer_ui"))
     )
   )
 }

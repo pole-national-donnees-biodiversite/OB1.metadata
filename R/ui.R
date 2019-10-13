@@ -8,6 +8,7 @@ app_ui <- function() {
     dashboardPage(
       title = "OB1.metadata",
       dashboardHeader(
+        
         title = "OB1.metadata"
       ),
       dashboardSidebar(
@@ -19,7 +20,8 @@ app_ui <- function() {
           menuItem("Inferences", tabName = "infer", 
                    icon = icon("beer")),
           menuItem("Semantics", tabName = "semantics", 
-                   icon = icon("project-diagram"))
+                   icon = icon("project-diagram")),
+          actionButton("dev", "Dev check")
         )
       ),
       dashboardBody(
@@ -39,13 +41,13 @@ app_ui <- function() {
                   fluidPage(h1("Pitch by Yvan"))
           ),
           tabItem("upload_file",
-                  ui_import("import_id")
+                  ui_import("import_mod")
           ),
           tabItem("infer",
-                  fluidPage("infer")
+                  inferUI("infer_mod")
           ),
           tabItem("semantics",
-                  semanticsUI("semantics")
+                  semanticsUI("semantics_mod")
           )
         )
       )
