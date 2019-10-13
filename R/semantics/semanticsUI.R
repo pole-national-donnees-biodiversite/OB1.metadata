@@ -14,6 +14,9 @@ semanticsUI <- function(id){
       fluidRow(
         uiOutput(ns("current_file"))
       ),
+      fluidRow(
+        uiOutput(ns("current_att"))
+      ),
       # fields annotation
       fluidRow(
         selectInput(ns("ontology"),

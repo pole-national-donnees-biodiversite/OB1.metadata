@@ -20,25 +20,14 @@ app_ui <- function() {
           menuItem("Inferences", tabName = "infer", 
                    icon = icon("beer")),
           menuItem("Semantics", tabName = "semantics", 
-                   icon = icon("project-diagram")),
-          actionButton("dev", "Dev check")
+                   icon = icon("project-diagram"))
+          # , actionButton("dev", "Dev check")
         )
       ),
       dashboardBody(
-        # tags$head(
-        #   tags$style(
-        #     HTML("
-        #       /* body */
-        #       .content-wrapper, .right-side {
-        #       background-image:url(https://live.staticflickr.com/4413/35827585043_cf308d88cc_z.jpg);
-        #       background-size: cover;
-        #       }
-        #     ")
-        #   )
-        # ),
         tabItems(
           tabItem("welcome",
-                  fluidPage(h1("Pitch by Yvan"))
+                  fluidPage(h1("SSAM"),h3("by OBIWAN"))
           ),
           tabItem("upload_file",
                   ui_import("import_mod")

@@ -26,6 +26,7 @@ library(ontologyIndex)
 library(mime)
 library(datapackage.r)
 library(bioacoustics)
+library(exiftoolr)
 
 # sources
 

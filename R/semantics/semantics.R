@@ -14,6 +14,15 @@ semantics <- function(input, output, session,
     req(savevar$import$file)
     HTML("<b>File:</b> ",savevar$import$file$name)
   })
+  output$current_att <- renderUI({
+    req(savevar$infer$metadata)
+    termlist <- unlist(savevar$infer$metadata)
+    termlist <- gsub(".*\\.","",names(termlist))
+    termlist <- unique(gsub("[0-9]*$","",termlist))
+    selectInput(ns("select_att"),
+                "Select the wanted metadata term",
+                termlist)
+  })
   
   # fields annotation ----
   output$select_term <- renderUI({
