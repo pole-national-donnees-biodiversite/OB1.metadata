@@ -418,6 +418,30 @@ Output
   HyperfocalDistance LightValue
 1           89.86143   14.64386
 ```
+- SIG data
+```
+install.packages("rgdal")
+library(rgdal)
+orcounty.poly <- readOGR(dsn=path.expand(file.choose()))
+orcounty.poly
+```
+Output
+```
+...
+Slot "plotOrder":
+ [1] 37 38 31 33 18 19 48 40 10 29 35 15  4  7 51 55 53 50 14 44 21  5 28 26 24 22 11  9 57  2 30 56 13 52  6 49  3 54 46 45 43
+[42] 42 41 20 39 47 36 34 17 32 16 27 25 12 23  8  1
+
+Slot "bbox":
+   min max
+x -4.6  -1
+y 44.0  48
+
+Slot "proj4string":
+CRS arguments:
+ +proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0 
+```
+
 Helper for making maps of species occurrence data
 - https://github.com/ropensci/mapr
 
